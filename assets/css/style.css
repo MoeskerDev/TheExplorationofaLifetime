@@ -1,1 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/*---------------------------------------Colours */
+
+span {
+    color: #676767;
+    margin-left: 5px;
+}
+
+.list-inline-item i {
+    color: #676767;
+}
+
+/*---------------------------------------Heading */
+
+header {
+    margin:0;
+    background-color: #fafafa;
+}
+
+h1 {
+    font-family: "space mono", sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    padding-top: 15px;
+    background-size:cover;
+    color: #676767
+}
+
+.header-wrapper {
+    padding-left: 20px;
+    width: 100%;
+}
+
+#logo {
+    font-size: 200% 
+}
+
+#menu {
+    font-size: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+
+
+
+/*---------------------------------------Body */
+body {
+    font-family: "space mono", sans-serif;
+}
+
+/*---------------------------------------Footer */
+footer{ 
+    height: 100px;
+    background-color: #fafafa;
+}
+
+footer p {
+    margin: 0;
+    line-height: 20px;
+}
+
+
+.block-inline {
+    display: inline-block;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.social-links {
+    text-align: right;
+    margin-top: -45px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links i {
+    font-size: 160%;
+    color: #676767;
+    margin-right: 70px;
+}
