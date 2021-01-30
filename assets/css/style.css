@@ -14,14 +14,31 @@ span {
 }
 
 .list-inline-item i {
-    color: #676767;
+    color: hsl(0, 0%, 40%);
 }
+
+#round-button a {
+    text-decoration-color: #115268;
+    color: #fafafa; 
+    text-decoration-color: #fafafa;
+}
+
+#locations {
+    background-color: #021f4b;
+}
+
+#locations h4, #locations p {
+    color:#fafafa;
+}
+
+
 
 /*---------------------------------------Heading */
 
 header {
     margin:0;
     background-color: #fafafa;
+    height: 75px;
 }
 
 h1 {
@@ -50,15 +67,92 @@ h1 {
     padding-top: 5px;
     width: 100%;
     margin-top: 15px;
-    margin-left: 60px;
+    margin-left: 110px;
 }
 
+#videos, #book-button, #info-table {
+    background-color: #4c3b71;
+}
 
+#locations {
+    background-color: #676767;
+}
 
+#images, #form {
+    background-color: #115268;
+}
 
 /*---------------------------------------Body */
 body {
     font-family: "space mono", sans-serif;
+}
+
+.row {
+    width: 100%;
+}
+
+.quote1, .quote2 {
+    line-height: 20px;
+}
+
+.quote1, .homevideo, .quote2 {
+    display: inline-block;
+}
+
+.round-button {
+    border-radius: 50%;
+    background-color: #115268;
+    color:  #fafafa;
+    text-align: center;
+    display: inline-block;
+    font-size: 75px;
+    line-height: 20px;
+    margin: 8px 8px;
+    padding: 60px;
+}
+
+.moon {
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+
+.mars {
+    margin-top: -231px;
+    margin-right: 20px;
+}
+
+#quotes, #reviews {
+    background-color: #021f4b;
+    color: #fafafa;
+    padding-top: 10px;
+}
+
+#locations h5 {
+    text-align: center;
+    color: #fafafa;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.one, .two, .three {
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+}
+
+.one p, .two p, .three p {
+    line-height: 10px;
+}
+
+#book-button .round-button {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5 {
+    text-align: center;
+    color: #676767;
+    text-transform: uppercase;
 }
 
 /*---------------------------------------Footer */
@@ -71,7 +165,6 @@ footer p {
     margin: 0;
     line-height: 20px;
 }
-
 
 .block-inline {
     display: inline-block;
