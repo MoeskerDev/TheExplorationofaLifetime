@@ -59,7 +59,7 @@ The company wants to create more bookings by providing information about the exp
 ---
 1.		#021f4b blue
 2.		 #4c3b71 purple 
-3.		#115268 green
+3.	    #115268	 green
 4.		some kind of white for the letters
 
 ---
@@ -86,7 +86,7 @@ The company wants to create more bookings by providing information about the exp
 
 ### Media
 *	The photo's used in this site came from <pixabay.com>:
-![alt text](https://cdn.pixabay.com/photo/2016/01/20/14/51/earth-1151659_960_720.jpg "The moon")
+![alt text](https://cdn.pixabay.com/photo/2016/01/20/14/51/earth-1151659_960_720.jpg "The Moon")
 ![alt text](https://cdn.pixabay.com/photo/2020/11/30/19/57/mars-5792147_960_720.jpg "Mars")	
 	
 *	The video's used in this site came from Youtube:

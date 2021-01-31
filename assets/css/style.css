@@ -17,10 +17,49 @@ span {
     color: hsl(0, 0%, 40%);
 }
 
-#round-button a {
-    text-decoration-color: #115268;
-    color: #fafafa; 
-    text-decoration-color: #fafafa;
+#quotes .quote1 {
+    text-align: right;
+    vertical-align: middle;
+    margin-left: -100px;
+    padding-top: 4%;
+}
+
+#quotes .homevideo {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+#quotes .quote2 {
+    text-align: right;
+    vertical-align: middle; 
+    margin-left: -100px;
+    padding-top: 4%; 
+}
+
+#quotes, #reviews {
+    background-color: #021f4b;
+    color: #fafafa;
+    height: 250px;
+}
+
+#reviews .reviews .review1 {
+    text-align: right;
+    vertical-align: middle;
+    margin-left: -100px;
+    padding-top: 1%;
+}
+
+#reviews .reviews .round-button {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+#reviews .reviews .review2 {
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 100px;
+    padding-top: 1%;
 }
 
 #locations {
@@ -32,6 +71,17 @@ span {
 }
 
 
+#videos, #book-button, #info-table {
+    background-color: #4c3b71;
+}
+
+#locations {
+    background-color: #676767;
+}
+
+#images, #form {
+    background-color: #115268;
+}
 
 /*---------------------------------------Heading */
 
@@ -55,6 +105,10 @@ h1 {
     width: 100%;
 }
 
+.prices h6 {
+    color: #021f4b;
+}
+
 #logo {
     font-size: 200% 
 }
@@ -64,67 +118,81 @@ h1 {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding-top: 5px;
     width: 100%;
     margin-top: 15px;
-    margin-left: 110px;
+    margin-left: 200px;
+    padding-top: 10px;
 }
-
-#videos, #book-button, #info-table {
-    background-color: #4c3b71;
-}
-
-#locations {
-    background-color: #676767;
-}
-
-#images, #form {
-    background-color: #115268;
-}
-
 /*---------------------------------------Body */
 body {
     font-family: "space mono", sans-serif;
 }
 
-.row {
-    width: 100%;
+.round-button a {
+    color: #021f4b;
+    font-weight: 700;
+    padding-top: 25px;
+    text-size-adjust: 200%;
 }
 
 .quote1, .quote2 {
     line-height: 20px;
 }
 
-.quote1, .homevideo, .quote2 {
-    display: inline-block;
+.round-button {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: #115268;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 30px;
 }
 
-.round-button {
-    border-radius: 50%;
-    background-color: #115268;
-    color:  #fafafa;
-    text-align: center;
+.prices h4, .prices p {
+    color: #fafafa;
+}
+
+.uppercase {
+    line-height: 10px;
+    padding-top: 15px;
+    color: #021f4b;
+}
+
+#videos, #info-table {
+    height: 250px;
+}
+
+#images {
+    height: 250px;
+}
+
+#form {
+    height: 250px;
+}
+
+.moon, .mars {
     display: inline-block;
-    font-size: 75px;
-    line-height: 20px;
-    margin: 8px 8px;
-    padding: 60px;
 }
 
 .moon {
-    margin-left: 20px;
-    padding-bottom: 25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 110px;
 }
 
 .mars {
-    margin-top: -231px;
-    margin-right: 20px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-#quotes, #reviews {
-    background-color: #021f4b;
-    color: #fafafa;
-    padding-top: 10px;
+#quotes, #reviews, #videos, #info-table, #images {
+    padding-top: 20px;
+}
+
+#locations {
+    height: 125px;
 }
 
 #locations h5 {
@@ -144,10 +212,39 @@ body {
     line-height: 10px;
 }
 
-#book-button .round-button {
-    width: 50%;
-    margin-left: 25%;
+.moon-image {
+    background: url(../images/The_Moon.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
 }
+
+.prices {
+    text-align: center;
+    color: #676767;
+}
+
+.mars-image {
+    background: url(../images/Mars.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-size: contain;
+}
+
+#book-button .round-button a, #reviews .round-button a {
+    text-transform: uppercase;
+}
+
+.table {
+    color: #fafafa;
+    text-align: center;
+}
+
+#book-button {
+    height: 125px;
+}
+
 
 #quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5 {
     text-align: center;
@@ -186,4 +283,22 @@ footer p {
     font-size: 160%;
     color: #676767;
     margin-right: 70px;
+}
+
+/*---------------------------------------Form */
+
+.form-heading {
+    font-family: space mono, sans-serif;
+    font-weight: 700;
+}
+
+.center-form {
+    padding-top: 5px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 1px;
+    background-color: #021f4b;
 }
