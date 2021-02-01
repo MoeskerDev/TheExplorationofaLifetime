@@ -34,88 +34,96 @@
                 </div> 
             </div>            
     </header>
-
+<!----------copied the iframe embedded links from youtube and adjusted for the visually impaired----->
     <section id="videos">
         <h5>the moon and mars</h5>
         <div class="row">
             <div class="col-md-5 moon">
-                <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen tartget="_blank" aria-hidden="true" alt="Moon video"></iframe>
+            </div>
+            <div class="col-md-2" id="book-button">
+                <div class="round-button">
+                    <span><a href="book.html" class="btn">book<br>now</a></span>
+                </div>
             </div>
             <div class="col-md-5 mars">
-                <iframe width="300" height="180" src="https://www.youtube.com/embed/D8pnmwOXhoY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/D8pnmwOXhoY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen target="_blank" aria-hidden="true" alt="Mars video"></iframe>
             </div>
         </div>
     </section>
-
+<!-----------code for round button between section 1 and 2
     <section id="book-button">
             <div class="round-button">
                 <span><a href="book.html" class="btn">book<br>now</a></span>
             </div>
-    </section>
-
+    <section>
+----------->
+<!--------copied the table from bootstrap--------->
     <section id="info-table">
         <h5>schedule 2021</h5>
         <div class="row">
-            <table class="col-md-6 table">
-                <thead>
-                    <tr>
-                    <th scope="col">Moon</th>
-                    <th scope="col">Dates 2021</th>
-                    <th scope="col">Departure</th>
-                    <th scope="col">Duration</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <th scope="row"></th>
-                    <td>March 31st</td>
-                    <td>South-America</td>
-                    <td>6 days minimum</td>
-                    </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    <td>June 30st</td>
-                    <td>Asia</td>
-                    <td>6 days minimum</td>
-                    </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    <td>September 30st</td>
-                    <td>Australia</td>
-                    <td>6 days minimum</td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="col-md-6 table">
-                <thead>
-                    <tr>
-                    <th scope="col">Mars</th>
-                    <th scope="col">Dates 2021</th>
-                    <th scope="col">Departure</th>
-                    <th scope="col">Duration</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <th scope="row"></th>
-                    <td>May 15th</td>
-                    <td>South-America</td>
-                    <td>12 - 16 months</td>
-                    </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    <td>July 15th</td>
-                    <td>Asia</td>
-                    <td>12 - 16 months</td>
-                    </tr>
-                    <tr>
-                    <th scope="row"></th>
-                    <td>December 15th</td>
-                    <td>Australia</td>
-                    <td>12 - 16 months</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="col-md-5 table moon">
+                    <thead>
+                        <tr>
+                        <th scope="col">Moon</th>
+                        <th scope="col">Dates 2021</th>
+                        <th scope="col">Departure</th>
+                        <th scope="col">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row"></th>
+                        <td>March 31st</td>
+                        <td>South-America</td>
+                        <td>6 days minimum</td>
+                        </tr>
+                        <tr>
+                        <th scope="row"></th>
+                        <td>June 30st</td>
+                        <td>Asia</td>
+                        <td>6 days minimum</td>
+                        </tr>
+                        <tr>
+                        <th scope="row"></th>
+                        <td>September 30st</td>
+                        <td>Australia</td>
+                        <td>6 days minimum</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="col-md-5 table mars">
+                    <thead>
+                        <tr>
+                        <th scope="col">Mars</th>
+                        <th scope="col">Dates 2021</th>
+                        <th scope="col">Departure</th>
+                        <th scope="col">Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row"></th>
+                        <td>May 15th</td>
+                        <td>South-America</td>
+                        <td>12 - 16 months</td>
+                        </tr>
+                        <tr>
+                        <th scope="row"></th>
+                        <td>July 15th</td>
+                        <td>Asia</td>
+                        <td>12 - 16 months</td>
+                        </tr>
+                        <tr>
+                        <th scope="row"></th>
+                        <td>December 15th</td>
+                        <td>Australia</td>
+                        <td>12 - 16 months</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
          </div>
     </section>
 
