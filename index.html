@@ -1,115 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>The exploration of a lifetime</title>
 </head>
-<body>
-    <header>
-            <div class="header-wrapper">
-                <div class="row">
-                    <div class="col-3">
-                        <a href="index.html">
-                        <h1 id="logo">Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
-                        </a>
-                    </div> 
-  <!--------took pull-right from the stackoverflow site to pull the navbar more to the right-->
-                    <div class="col-9 navbar pull-right">
-                            <ul id="menu">
-                                <li class="list-inline-item">
-                                    <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Background info</span></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="book.html"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><span>Book a flight</span></a>
-                                </li>
-                            </ul>
-                    </div>
-                </div> 
-            </div>            
-    </header>
- <!----------copied the iframe embedded link from youtube and adjusted for the visually impaired----->
-    <section id="quotes">
-            <h5>quotes</h5>
-            <div class="row quotes">
-                <div class="col-md-4 quote1">
-                    <p><em>"Earth is a small town <br> with many neighborhoods <br> in a very big universe."</em><br> - <small>Ron Garan</small></p>
-                </div>
-                <div class="col-md-4 homevideo">
-                    <iframe width="300" height="200" src="https://www.youtube.com/embed/vIy76M-4txo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen target="_blank" aria-hidden="true" alt="Universe song"></iframe>
-                </div>
-                <div class="col-md-4 quote2">
-                    <p><em>"Curiosity is <br> the essence of <br> our existence".</em><br>- <small>Gene Cernan</small></p>
-                </div>
-            </div>   
-    </section>
 
-    <section id="reviews">
-            <h5>reviews</h5>
-            <div class="row reviews">
-                <div class="col-md-4 review1">
-                    <p><em>"This is the most <br> amazing experience <br> in my life so far!!!"</em><small><br>- Alberto Ricci</small></p>
+<body>
+    <!---Inside the header I placed a clickable logo (to home page) and a navbar with 3 clickable links (for each page). Both include icons as well-->
+    <header>
+        <div class="header-wrapper">
+            <div class="row">
+                <div class="col-3">
+                    <a href="index.html">
+                        <h1 id="logo">Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
+                    </a>
                 </div>
-                <div class="col-md-2" id="home-button">
+                <!--------took pull-right from the stackoverflow site to pull the navbar more to the right-->
+                <div class="col-9 navbar pull-right">
+                    <ul id="menu">
+                        <li class="list-inline-item">
+                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Background
+                                    info</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="book.html"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><span>Book a
+                                    flight</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---Inside the first section I placed 2 quotes with a video in the middle----------------------->
+    <!----------copied the iframe embedded link from youtube and adjusted for the visually impaired----->
+    <section id="quotes">
+        <h5>quotes</h5>
+        <div class="row quotes">
+            <div class="col-md-4 quote1">
+                <p><em>"Earth is a small town <br> with many neighborhoods <br> in a very big universe."</em><br> -
+                    <small>Ron Garan</small></p>
+            </div>
+            <div class="col-md-4 homevideo">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/vIy76M-4txo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen aria-hidden="true" alt="Universe song"></iframe>
+            </div>
+            <div class="col-md-4 quote2">
+                <p><em>"Curiosity is <br> the essence of <br> our existence".</em><br>- <small>Gene Cernan</small></p>
+            </div>
+        </div>
+    </section>
+    <!-----In the second section I added 2 reviews with a clickable round button (link to book page) in the middle------->
+    <section id="reviews">
+        <h5>reviews</h5>
+        <div class="row reviews">
+            <div class="col-md-4 review1">
+                <p><em>"This is the most <br> amazing experience <br> in my life so far!!!"</em><small><br>- Alberto
+                        Ricci</small></p>
+            </div>
+            <div class="col-md-2" id="home-button">
                 <div class="round-button">
                     <a href="book.html" class="btn">book<br>now</a>
                 </div>
-                </div>
-                <div class="col-md-4 review2">
-                    <p><em>"This is so worth it <br> and puts everything on <br> earth into perspective."</em><small><br>- Nate Wise</small></p>
-                </div>
             </div>
+            <div class="col-md-4 review2">
+                <p><em>"This is so worth it <br> and puts everything on <br> earth into
+                        perspective."</em><small><br>-Nate
+                        Wise</small></p>
+            </div>
+        </div>
     </section>
+    <!---------In this section I added the 3 locations from which you can departure from earth-------------------->
     <section id="locations">
         <h5>fly away from earth via</h5>
-      <div class="one">
-          <h4>South-America</h4>
-          <p>Alcântara</p>
-          <p>Brazil</p>
-      </div>
-       <div class="two">
-          <h4>Asia</h4>
-          <p>Palmachim</p>
-          <p>Israel</p>
-      </div>
-       <div class="three">
-          <h4>Australia</h4>
-          <p>Woomera</p>
-          <p>Australia</p>
-      </div>
+        <div class="one">
+            <h4>South-America</h4>
+            <p>Alcântara</p>
+            <p>Brazil</p>
+        </div>
+        <div class="two">
+            <h4>Asia</h4>
+            <p>Palmachim</p>
+            <p>Israel</p>
+        </div>
+        <div class="three">
+            <h4>Australia</h4>
+            <p>Woomera</p>
+            <p>Australia</p>
+        </div>
     </section>
+    <!----Inside the footer I placed the address of the company with 4 social links------------------------------>
     <footer>
         <div class="footer-wrapper">
             <div class="block-inline">
-                    <p>Space<i class="fa fa-plane" aria-hidden="true"></i>M</p>
-                    <p>Parallelweg 11</p>
-                    <p>2021 Montreux, Switzerland</p>
+                <p>Space<i class="fa fa-plane" aria-hidden="true"></i>M</p>
+                <p>Parallelweg 11</p>
+                <p>2021 Montreux, Switzerland</p>
             </div>
-                    <ul class="social-links">
-                        <li class="list-inline-item">
-                            <a href="https:www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https:www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https:www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https:www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    
-                    </ul>
-                
+            <ul class="social-links">
+                <li class="list-inline-item">
+                    <a href="https:www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https:www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https:www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https:www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

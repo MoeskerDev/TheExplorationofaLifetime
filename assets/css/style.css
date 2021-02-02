@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-
+/*-----------------copied from CI tutorial--------------*/
 *{
     margin:0;
     padding:0;
     border:0;
 }
 
-/*---------------------------------------Colours */
+/*---------------------------------------------------------------------------------Colours */
 
 span {
     color: #676767;
@@ -47,20 +47,20 @@ span {
     background-color: #115268;
 }
 
-/*---------------------------------------Heading */
+/*--------------------------------------------------------------------------------Heading */
 
 header {
     margin:0;
     background-color: #fafafa;
     height: 75px;
 }
-
+/*--The logo is bigger than the navbar so a bigger font-size, same (heavier) font-weight, also grey and sans-serif when space mono is not available------*/
 h1 {
     font-family: "space mono", sans-serif;
     font-weight: 700;
     font-size: 200%;
     padding-top: 15px;
-    background-size:cover;
+    background-size: cover;
     color: #676767
 }
 
@@ -68,11 +68,7 @@ h1 {
     padding-left: 20px;
     width: 100%;
 }
-
-#logo {
-    font-size: 200% 
-}
-
+/*-The navbar gets a heavier font, uppercase, some letter spacing and 100% width to breath---------------*/
 #menu {
     font-size: 100%;
     font-weight: 700;
@@ -84,7 +80,7 @@ h1 {
     padding-top: 10px;
 }
 
-/*---------------------------------------Body */
+/*------------------------------------------------------------------------------Body */
 
 body {
     font-family: "space mono", sans-serif;
@@ -100,7 +96,8 @@ body {
 .quote1, .quote2 {
     line-height: 20px;
 }
-
+/* -----Creating a round button by using same height and width plus a border radius of 
+50% with text aligned in the middle--------*/
 .round-button {
     border-radius: 50px;
     height: 100px;
@@ -164,11 +161,10 @@ body {
     margin-right: 50px;
 }
 /*--
-.table-responsive {576px|768px|992px|1120px} {
-    padding: 0;
-    margin: 0;
+.table-responsive {
+
 }
---*/
+----*/
 #quotes, #reviews, #videos, #info-table, #images {
     padding-top: 20px;
 }
@@ -182,7 +178,7 @@ body {
 }
 
 #form {
-    height: 250px;
+    height: 375px;
 }
 
 #quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5 {
@@ -313,11 +309,12 @@ footer p {
 .center-form {
     padding-top: 5px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 50%;
 }
-
+/*-----copied the button from CI tutorial----*/
 button[type="submit"] {
-    margin-top: 1px;
+    margin-top: 10px;
     background-color: #021f4b;
 }
+
 
