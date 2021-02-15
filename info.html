@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Two videos about the Moon and Mars plus a space travel table and departure locations">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -14,13 +16,15 @@
 </head>
 
 <body>
-    <!-----Inside the header I placed the clickable logo and the navbar with 3 clickable links to each page, including icons-------->
+    <!--Inside the header I placed the clickable logo and the navbar with 3 clickable links to each page, including icons-->
     <header>
         <div class="header-wrapper">
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 head-logo">
                     <a href="index.html">
-                        <h1 id="logo">Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
+                        <div id="logo">
+                            <h1>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
+                        </div>
                     </a>
                 </div>
                 <div class="col-9 navbar pull-right">
@@ -41,91 +45,91 @@
             </div>
         </div>
     </header>
-    <!--------Inside the first section I placed 2 videos with a clickable round book button (link to book page) in the middle------------------->
-    <!----------copied the iframe embedded links from youtube and adjusted for the visually impaired----->
+    <!--Inside the first section I placed 2 videos with a clickable round book button (link to book page) in the middle-->
+    <!--copied the iframe embedded links from youtube and adjusted for the visually impaired-->
     <section id="videos">
         <h5>the moon and mars</h5>
         <div class="row">
-            <div class="col-md-5 moon">
-                <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo" frameborder="0"
+            <div class="col-5 moon">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen aria-hidden="true" alt="Moon video"></iframe>
+                    allowfullscreen aria-hidden="true"></iframe>
             </div>
-            <div class="col-md-2" id="book-button">
+            <div class="col-2" id="book-button">
                 <div class="round-button">
                     <span><a href="book.html" class="btn">book<br>now</a></span>
                 </div>
             </div>
-            <div class="col-md-5 mars">
-                <iframe width="300" height="180" src="https://www.youtube.com/embed/D8pnmwOXhoY" frameborder="0"
+            <div class="col-5 mars">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/D8pnmwOXhoY"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen aria-hidden="true" alt="Mars video"></iframe>
+                    allowfullscreen aria-hidden="true"></iframe>
             </div>
         </div>
     </section>
-    <!-------In the second section I placed a table with further info (dates, duration, departure locations) regarding the flights to the moon and mars------->
-    <!--------copied the table from bootstrap--------->
+    <!--In the second section I placed a table with further info (dates, duration, departure locations) regarding the flights to the moon and mars-->
+    <!--copied the table from bootstrap-->
     <section id="info-table">
         <h5>schedule 2021</h5>
-        <div class="row">
-            <div class="table-responsive">
-                <table class="col-md-5 table moon">
+        <div class="row info">
+            <div class="col table-responsive">
+                <table class="col-6 table moon">
                     <thead>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="col">Moon</th>
-                            <th scope="col">Dates 2021</th>
+                            <th scope="col">Dates</th>
                             <th scope="col">Departure</th>
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="row"></th>
                             <td>March 31st</td>
                             <td>South-America</td>
-                            <td>6 days minimum</td>
+                            <td>6 days</td>
                         </tr>
-                        <tr>
+                        <tr class="d-flex wider">
                             <th scope="row"></th>
                             <td>June 30st</td>
                             <td>Asia</td>
-                            <td>6 days minimum</td>
+                            <td>6 days</td>
                         </tr>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="row"></th>
                             <td>September 30st</td>
                             <td>Australia</td>
-                            <td>6 days minimum</td>
+                            <td>6 days</td>
                         </tr>
                     </tbody>
                 </table>
-                <table class="col-md-5 table mars">
+                <table class="col-6 table mars">
                     <thead>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="col">Mars</th>
-                            <th scope="col">Dates 2021</th>
+                            <th scope="col">Dates</th>
                             <th scope="col">Departure</th>
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="row"></th>
                             <td>May 15th</td>
                             <td>South-America</td>
-                            <td>12 - 16 months</td>
+                            <td>12/16 months</td>
                         </tr>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="row"></th>
                             <td>July 15th</td>
                             <td>Asia</td>
-                            <td>12 - 16 months</td>
+                            <td>12/16 months</td>
                         </tr>
-                        <tr>
+                        <tr class="d-flex">
                             <th scope="row"></th>
                             <td>December 15th</td>
                             <td>Australia</td>
-                            <td>12 - 16 months</td>
+                            <td>12/16 months</td>
                         </tr>
                     </tbody>
                 </table>
@@ -151,7 +155,7 @@
             <p>Australia</p>
         </div>
     </section>
-    <!----Again, in the footer I placed the address of the company and 4 social links----------------------------------->
+    <!--Again, in the footer I placed the address of the company and 4 social links-->
     <footer>
         <div class="footer-wrapper">
             <div class="block-inline">
@@ -161,21 +165,20 @@
             </div>
             <ul class="social-links list-inline-class">
                 <li class="list-inline-item">
-                    <a href="https:www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https:www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https:www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https:www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </li>
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>

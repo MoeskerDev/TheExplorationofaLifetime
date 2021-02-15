@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="A Moon and Mars image with prices plus a form to request information or book a flight into space">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -14,13 +15,13 @@
 </head>
 
 <body>
-    <!-------Inside the header I place a clickable logo (to home page) and a navbar with 3 clickable links to each page, both with icons------------>
+    <!--Inside the header I place a clickable logo (to homepage) and a navbar with 3 clickable links to each page, both with icons-->
     <header>
         <div class="header-wrapper">
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 head-logo">
                     <a href="index.html">
-                        <h1 id="logo">Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
+                        <div id="logo"><h1>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1></div>
                     </a>
                 </div>
                 <div class="col-9 navbar pull-right">
@@ -41,13 +42,14 @@
             </div>
         </div>
     </header>
-    <!---Inside the first section I placed 2 images from pixabay.com with prices of the flights in the middle. Unlike wireframe I liked the shown effect of the images---->
+    <!--Inside the first section I placed 2 images from pixabay.com with prices of the flights in the middle. Unlike wireframe I liked the shown effect of the images-->
     <section id="images">
         <h5>the moon and mars</h5>
         <div class="row images">
-            <!---used a CI tutorial to add the images in this way, with a url---see CSS---->
-            <div class="col-md-4 moon-image image-fluid" alt="Moon image"></div>
-            <div class="col-md-4 prices">
+            <!--Used a CI tutorial to add the images in this way, with a url, see CSS-->
+            <div class="col-4 moon-image image-fluid"></div>
+            <div class="col-4 prices">
+                <!--Used the structure below from a CI tutorial-->
                 <h4>Prices</h4>
                 <hr>
                 <h6>Go to the Moon for only:</h6>
@@ -55,30 +57,25 @@
                 <h6>Go to Mars for only:</h6>
                 <p>€1.000.000,-</p>
             </div>
-            <div class="col-md-4 mars-image image fluid" alt="Mars image"></div>
+            <div class="col-4 mars-image image fluid"></div>
         </div>
     </section>
-    <!---Inside the second section I placed a form from CI tutorial with required name, email and specification of request (either book a flight or request more info)---------->
+    <!--Inside the second section I placed a form from CI tutorial with required name, email and specification of request (either book a flight or request more info)-->
     <section id="form" class="container-fluid">
         <div class="row">
             <div class="col">
-                <h3 class="form-heading uppercase text-center">Ready to book your flight or do you want more info?</h3>
-                <h5 class="uppercase text-center">Fill out the form below!</h5>
+                <div class="form-heading uppercase text-center"><h3>Ready to book your flight or do you want more info?</h3></div>
+                <div class="uppercase text-center"><h5>Fill out the form below:</h5></div>
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
                             required />
-                        <!--------------------copied code from bootstrap dropdowns-------------------------->
-                        <div class="dropdown-menu">
-                            <h6 class="dropdown-header">I am here to</h6>
-                            <a class="dropdown-item" href="#">Book my flight!</a>
-                            <a class="dropdown-item" href="#">Request more information</a>
-                        </div>
                         <textarea rows="5" name="interest" id="interest" class="form-control"
                             placeholder="Specify your interest" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
+                                <!--The button is also from a CI tutorial but slightly adjusted-->
                                 <button type="submit" title="Thank you for your interest!" class="btn btn-secondary">I
                                     want to fly into space!</button>
                             </div>
@@ -88,8 +85,8 @@
             </div>
         </div>
     </section>
-    <!----removed locations section to give more space to form section----->
-    <!-----Inside the footer I placed the address of the company with 4 social links-------------------------->
+    <!--Removed locations section to give more space to form section-->
+    <!--Inside the footer I placed the address of the company with 4 social links-->
     <footer>
         <div class="footer-wrapper">
             <div class="block-inline">
@@ -99,21 +96,20 @@
             </div>
             <ul class="social-links list-inline-class">
                 <li class="list-inline-item">
-                    <a href="https:www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https:www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https:www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https:www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </li>
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>
