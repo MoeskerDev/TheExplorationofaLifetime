@@ -81,6 +81,7 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   Fixed header
 *   Drop-down menu
 *   Visually improved buttons 
+*   Table adjustments
 ---
 ## Testing
 ---
