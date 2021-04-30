@@ -20,7 +20,7 @@
     <header>
         <div class="header-wrapper">
             <div class="row">
-                <div class="col-3 head-logo">
+                <div class="col-lg-3 head-logo">
                     <a href="index.html">
                         <div id="logo">
                             <h1>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
@@ -48,7 +48,8 @@
     </header>
     <!--In this section I added the 3 locations from which you can departure from earth-->
     <section id="locations">
-  
+        <div class="card locations">
+            <div class="card-body">
             <h5>fly away from earth to the moon or mars via</h5>
             <div class="one">
                 <p>Alcântara</p>
@@ -62,7 +63,45 @@
                 <p>Woomera</p>
                 <h4>Australia</h4>
             </div>
-  
+            </div>
+        </div>
+    </section>
+ <!--In the second section I added 2 reviews with a clickable round button (link to book page) in the middle-->
+    <section id="reviews">
+        <div class="card-group">
+                <h5>reviews</h5>
+                <div class="reviews">
+                    <div class="card review1 col-lg-4 col-md-3 col-sm-1 text-center">
+                    <div class="card-body">
+                        <p><em>"This is the most <br> amazing experience <br> in my life so far!!!"</em><small><br>- Alberto
+                        Ricci</small></p>
+                    </div>
+                    </div>
+                    <div class="card home-button">
+                    <div id="home-button" class="card-body col-lg-4 col-md-2 col-sm-1">
+                        <div class="round-button">
+                            <button><a href="book.html" class="btn btn-secondary home-button">book<br>now</a></button>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="card review2 col-lg-4 col-md-3 col-sm-1 text-center">
+                    <div class="card-body">
+                        <p><em>"This is so worth it <br> and puts everything on <br> earth into
+                            perspective."</em><small><br>-Nate
+                            Wise</small></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+<!--New section with more company information-->
+    <section id="company">
+        <div class="card">
+            <div class="body-card">
+
+            </div>
+        </div>
+
     </section>
     <!--Inside the first section I placed 2 quotes with a video in the middle-->
     <!--Copied the iframe embedded link from youtube and adjusted for the visually impaired-->
@@ -83,29 +122,11 @@
             </div>
         </div>
     </section>
-    <!--In the second section I added 2 reviews with a clickable round button (link to book page) in the middle-->
-    <section id="reviews">
-        <h5>reviews</h5>
-        <div class="row reviews">
-            <div class="col-4 review1">
-                <p><em>"This is the most <br> amazing experience <br> in my life so far!!!"</em><small><br>- Alberto
-                        Ricci</small></p>
-            </div>
-            <div id="home-button" class="col-2">
-                <div class="round-button">
-                    <span><a href="book.html" class="btn">book<br>now</a></span>
-                </div>
-            </div>
-            <div class="col-4 review2">
-                <p><em>"This is so worth it <br> and puts everything on <br> earth into
-                        perspective."</em><small><br>-Nate
-                        Wise</small></p>
-            </div>
-        </div>
-    </section>
+   
+    
     <!--Inside the footer I placed the address of the company with 4 social links copied from a CI tutorial with different icons and urls-->
-    <footer>
-        <div class="row footer-wrapper">
+    <div class="footer card">
+        <div class="row footer-wrapper card-body">
             <div class="col-12">
                 <div class="block-inline">
                     <p>Space<i class="fa fa-plane" aria-hidden="true"></i>M</p>
@@ -128,7 +149,7 @@
                 </ul>
             </div>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>

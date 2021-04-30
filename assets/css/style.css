@@ -21,6 +21,10 @@ span {
     color: #fafafa;
 }
 
+#company {
+    height: 256px;
+}
+
 #quotes, #reviews {
     background-color: #021f4b;
     color: #fafafa;
@@ -29,6 +33,11 @@ span {
 
 #locations {
     background-color: #676767;
+    color: white;
+}
+
+#locations.card-body {
+    padding: 0px;
 }
 
 #locations h4, #locations p {
@@ -97,7 +106,7 @@ body {
 /* -----Creating a round button by using same height and width plus a border radius of 
 50% with text aligned in the middle--------*/
 .round-button {
-    border-radius: 50px;
+
     height: 100px;
     width: 100px;
     background-color: #115268;
@@ -181,7 +190,11 @@ body {
     padding-top: 20px;
 }
 
-#videos, #info-table {
+#videos {
+    height: 250px;
+}
+
+#info-table {
     height: 250px;
 }
 
@@ -224,29 +237,9 @@ body {
     width: 100%;
 }
 
-#reviews .reviews .review1 {
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 0;
-    padding-top: 3%;
-}
-
-#reviews .reviews #home-button {
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 55px;
-    padding-top: 3%;
-}
-
-#home-button .round-button{
-    margin-left: 105px;
-}
-
-#reviews .reviews .review2 {
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 165px;
-    padding-top: 3%;
+#home-button {
+    background-color: #021f4b;
+    display: inline-block;
 }
 
 #book-button .round-button {
@@ -266,6 +259,7 @@ body {
 
 #locations {
     height: 125px;
+    background-color: grey;
 }
 
 .one, .two, .three {
@@ -288,12 +282,12 @@ body {
 
 /*---------------------------------------Footer */
 
-footer{ 
+.footer{ 
     height: 100px;
     background-color: #fafafa;
 }
 
-footer p {
+.footer p {
     margin: 0;
     line-height: 20px;
 }
@@ -344,22 +338,7 @@ button[type="submit"] {
 ------------*/
 @media screen and (max-width: 1200px) {
 
-    #home-button{
-       margin-left: 120px;
-    }
-
-    #home-button .round-button{
-        margin-left: 75px;
-    }
-
-    .review2{
-        margin-left: 80px;
-    }
-
-    .uppercase.text-center{
-    padding-top: 0;
-    }
-}
+    
 /*----
 // Medium devices (992px and down)
 -------*/
@@ -389,10 +368,6 @@ button[type="submit"] {
 -----*/
 @media screen and (width: 768px) {
 
-    header{
-        height: 96px;
-    }
-
     #logo{
         padding-top: 20px;
     }
@@ -409,10 +384,6 @@ button[type="submit"] {
 
     .list-inline-item{
         display: inline-block;
-    }
-
-    #quotes, #reviews, #videos, #info-table{
-        height: 320px;
     }
 
     #quotes .quotes, #reviews .reviews{
@@ -438,16 +409,9 @@ button[type="submit"] {
         padding-right: 30px;
     }
 
-    .col-4.review1{
-        padding-left: 30px;
-        padding-right: 0;
-        margin-right: 85px;
-    }
+    .card.review1, .card.home-button , .card.review2 {
+        display: flex;
 
-    #reviews .reviews .review2{
-        padding-right: 30px;
-        padding-left: 0;
-        margin-left: 30px;
     }
 
     #videos .row{
@@ -516,19 +480,20 @@ button[type="submit"] {
         padding-top: 30px;
     }
 
-    .center-form{
+    .center-form {
         padding-top: 20px;
     }
 
-    button.btn.btn-secondary{
+    button.btn.btn-secondary {
         margin-top: 25px;
     }
 
-    #locations{
+    #locations {
         height: 160px;
+        background-color: grey;
     }
 
-    #locations h5{
+    #locations h5 {
         padding-top: 15px;
     }
 
@@ -536,13 +501,6 @@ button[type="submit"] {
         padding-top: 10px;
     }
 
-    footer{
-        height: 128px;
-    }
-
-    .footer-wrapper{
-        padding-top: 25px;
-    }
 }
 /*-----
 // Small devices, (Iphone5, 320px)
@@ -583,14 +541,6 @@ button[type="submit"] {
         padding-top: 0;
         margin-top: 0;
         margin-left: 40px;
-    }
-
-    #quotes, #reviews{
-        height: 202px;
-    }
-
-    #videos{
-        height: 150px;
     }
 
     #info-table{
@@ -634,28 +584,10 @@ button[type="submit"] {
         padding-right: 0;
     }
 
-    .quote2, .review2{
-        height: 74px;
-        padding-top: 0px;
-        text-size-adjust: 50%;
-        line-height: 15px;
-    }
-
     .quote2{
         padding-top: 14px;;
         padding-right: 25px;
         padding-left: 0;
-    }
-
-    .review2{
-        left: 40px;
-        padding-left: 0;
-        padding-right: 25px;
-        margin-left: 0px;
-    }
-
-    .quote1 p, .quote2 p, .review1 p, .review2 p{
-        font-size: 12px;
     }
 
     .homevideo, .moon, .mars{
@@ -678,13 +610,6 @@ button[type="submit"] {
         border-radius: 30px;
         height: 60px;
         width: 60px;
-    }
-
-    a.btn{
-        padding-top: 5px;
-        margin-left:0;
-        padding-left: 6px;
-        border: 0;
     }
 
     .moon, .mars{
@@ -807,21 +732,12 @@ button[type="submit"] {
         height: 75%;
     }
 
-    button.btn.btn-secondary{
-        font-size: 10px;
-        margin-top: 10px;
-    }
-
     #locations{
         visibility: hidden;
         display: none;
     }
 
-    footer{
-        height: 90px;
-    }
-
-    footer .block-inline{
+    .footer .block-inline{
         padding-top: 10px;
         font-size: 10px;
         margin-left: 15px;
@@ -836,7 +752,4 @@ button[type="submit"] {
         margin-top:-50px;
         margin-right: 15px;
     }
-}
-
-
-
+}}
