@@ -17,11 +17,7 @@ span {
     color: hsl(0, 0%, 40%);
 }
 
-.prices h6 {
-    color: #021f4b;
-}
-
-.prices h4, .prices p {
+.prices h4, .prices h6, .prices p {
     color: #fafafa;
 }
 
@@ -129,7 +125,7 @@ body {
 .uppercase {
     line-height: 10px;
     padding-top: 15px;
-    color: #021f4b;
+    color: white;
 }
 
 .uppercase.text-center{
