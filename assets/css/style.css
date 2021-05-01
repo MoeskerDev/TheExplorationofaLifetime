@@ -224,7 +224,7 @@ body {
     height: 375px;
 }
 
-#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5{
+#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5, #faq h5{
     text-align: center;
     color: #fafafa;
     text-transform: uppercase;

@@ -45,35 +45,14 @@
             </div>
         </div>
     </header>
-    <!--Inside the first section I placed 2 videos with a clickable round book button (link to book page) in the middle-->
-    <!--copied the iframe embedded links from youtube and adjusted for the visually impaired-->
-    <section id="videos">
-        <h5>the moon and mars</h5>
-        <div class="row">
-            <div class="col-5 moon">
-                <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen aria-hidden="true"></iframe>
-            </div>
-            <div class="col-2" id="book-button">
-                <div class="round-button">
-                    <span><a href="book.html" class="btn">book<br>now</a></span>
-                </div>
-            </div>
-            <div class="col-5 mars">
-                <iframe width="300" height="180" src="https://www.youtube.com/embed/D8pnmwOXhoY"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen aria-hidden="true"></iframe>
-            </div>
-        </div>
-    </section>
     <!--In the second section I placed a table with further info (dates, duration, departure locations) regarding the flights to the moon and mars-->
     <!--copied the table from bootstrap-->
     <section id="info-table">
+        <div class="container-fluid">
         <h5>schedule 2021</h5>
         <div class="row info">
-            <div class="col table-responsive">
-                <table class="col-6 table moon">
+            <div class="col-lg-5 table-responsive">
+                <table class="table moon">
                     <thead>
                         <tr class="d-flex">
                             <th scope="col">Moon</th>
@@ -103,7 +82,12 @@
                         </tr>
                     </tbody>
                 </table>
-                <table class="col-6 table mars">
+                <div class="col-lg-2" id="book-button">
+                    <div class="round-button">
+                        <span><a href="book.html" class="btn">book<br>now</a></span>
+                    </div>
+                </div>
+                <table class="col-lg-6 table mars">
                     <thead>
                         <tr class="d-flex">
                             <th scope="col">Mars</th>
@@ -135,13 +119,53 @@
                 </table>
             </div>
         </div>
+        </div>
+    </section>
+     <!--Inside the first section I placed 2 videos with a clickable round book button (link to book page) in the middle-->
+    <!--copied the iframe embedded links from youtube and adjusted for the visually impaired-->
+    <section id="videos">
+        <h5>the moon and mars</h5>
+        <div class="row">
+            <div class="col-5 moon">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen aria-hidden="true"></iframe>
+            </div>
+            <div class="col-2" id="book-button">
+                <div class="round-button">
+                    <span><a href="book.html" class="btn">book<br>now</a></span>
+                </div>
+            </div>
+            <div class="col-5 mars">
+                <iframe width="300" height="180" src="https://www.youtube.com/embed/D8pnmwOXhoY"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen aria-hidden="true"></iframe>
+            </div>
+        </div>
     </section>
     <!--New section to add more informative information-->
     <section id="more-info">
         <h5>title</h5>
         <div class="card">
             <div class="body-card">
-                <p>This paragraph will add text or video's</p>
+                <p>Over 150 moons orbit the solar system's planets. And one of those moons calls Earth home.
+                    The moon was formed about 4.5 billion years ago when, according to one theory, the Earth slammed
+                    into another early planet. Debris from this collision began to orbit Earth, and accumulated, forming today's moon.
+                    The moon is the fifth largest natural satellite in the solar system, with a diameter just under the width of China.
+                    It's composed of an iron rich core, plus a mantle and crust containing minerals made of magnesium, oxygen and silicon.
+                    The moon's surface was once geologically active and covered in an ocean of magma.
+                    But today, apart from traces of water ice, the surface is completely covered in dust and rocky debris.
+                    Countless craters dot the moon's surface. Each formed by objects such as meteroids,
+                    comets and asteroids crashing onto the moon. The largest crater, the South Pole Aitkin basin,
+                    spans across a quarter of the moon's surface, and is nearly deep enough to fit Mount Everest inside.
+                    The moon orbits our planet at an average distance of 30 Earths. It rotates at the same rate that it revolves.
+                    So as it revolves around our planet, the same side of the moon faces the Earth at all times.
+                    From the Earth's surface, we can observe eight distinct traditionally recognized stages of the moon's illumination, called lunar phases.
+                    They have been observed for thousands of years, and even provided the basis for the earliest calendars.
+                    For most of human history, the moon could only be studied from afar. But on July 20th, 1969, humans were able to close
+                    that distance with the American spaceflight mission Apollo 11. It placed humans on the moon for the very first time.
+                    Bringing our understanding of Earth's only natural satellite one step closer.</p>
+                <p></p>
             </div>
         </div>
     </section>
