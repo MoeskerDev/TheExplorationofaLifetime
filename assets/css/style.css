@@ -23,6 +23,7 @@ span {
 
 #company {
     height: 256px;
+    background-color:#115268;
 }
 
 #quotes, #reviews {
@@ -31,10 +32,18 @@ span {
     height: 250px;
 }
 
-#locations {
-    background-color: #676767;
-    color: white;
+.card.locations {
+    background-color: grey;
 }
+.card {
+    background-color:#115268;
+}
+
+span a.btn {
+    background-color:#115268;
+    padding-top: 6px;
+}
+
 
 #locations.card-body {
     padding: 0px;
@@ -106,7 +115,6 @@ body {
 /* -----Creating a round button by using same height and width plus a border radius of 
 50% with text aligned in the middle--------*/
 .round-button {
-
     height: 100px;
     width: 100px;
     background-color: #115268;
@@ -186,12 +194,17 @@ body {
     width: 100%;
 }
 
-#quotes, #reviews, #videos, #info-table, #images {
+#quotes, #reviews, #videos, #info-table, #images, #company {
     padding-top: 20px;
 }
 
 #videos {
     height: 250px;
+}
+
+#more-info {
+    height: 376px;
+    background-color:#115268;
 }
 
 #info-table {
@@ -202,11 +215,16 @@ body {
     height: 250px;
 }
 
+#faq {
+    height: 251px;
+    background-color:#021f4b;
+}
+
 #form {
     height: 375px;
 }
 
-#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5 {
+#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5{
     text-align: center;
     color: #fafafa;
     text-transform: uppercase;
@@ -256,12 +274,6 @@ body {
 }
 
 /*---------------------------------Departures/locations */
-
-#locations {
-    height: 125px;
-    background-color: grey;
-}
-
 .one, .two, .three {
     text-align: center;
     display: inline-block;
@@ -283,7 +295,7 @@ body {
 /*---------------------------------------Footer */
 
 .footer{ 
-    height: 100px;
+    height: 125px;
     background-color: #fafafa;
 }
 
@@ -352,10 +364,6 @@ button[type="submit"] {
         margin-left: -3%;
     }
 
-    #info-table{
-        height: 320px;
-    }
-
     .table{
         max-width: 40%;
         color: #fafafa;
@@ -377,10 +385,6 @@ button[type="submit"] {
         margin-right: 20px;
         margin-left: 20px;
     }    
-
-    #home-button{
-        margin-left: 0px;
-    }
 
     .list-inline-item{
         display: inline-block;
@@ -409,9 +413,8 @@ button[type="submit"] {
         padding-right: 30px;
     }
 
-    .card.review1, .card.home-button , .card.review2 {
+    .card.review1, .card.home-button, .card.review2 {
         display: flex;
-
     }
 
     #videos .row{
@@ -455,10 +458,6 @@ button[type="submit"] {
         padding-left: 40px;
     }
 
-    #images{
-        height: 320px;
-    }
-
     #images .images{
         padding-top: 40px;
     }
@@ -466,10 +465,6 @@ button[type="submit"] {
     .form-heading h3{
         display: inline-block;
         font-weight: 700;
-    }
-
-    #form{
-        height: 480px;
     }
 
     #form .row{
@@ -486,15 +481,6 @@ button[type="submit"] {
 
     button.btn.btn-secondary {
         margin-top: 25px;
-    }
-
-    #locations {
-        height: 160px;
-        background-color: grey;
-    }
-
-    #locations h5 {
-        padding-top: 15px;
     }
 
     .one, .two, .three{
@@ -543,20 +529,12 @@ button[type="submit"] {
         margin-left: 40px;
     }
 
-    #info-table{
-        height: 254px;
-    }
-
     .quotes, .reviews{
         padding-top: 5px;
     }
 
     .row.quotes{
         height: 202px;
-    }
-
-    #info-table, .table-responsive{
-        padding: 0px 10px 0px 10px;
     }
 
     #quotes, #reviews, #videos{
@@ -567,12 +545,6 @@ button[type="submit"] {
         font-size: 13px;
         margin-bottom: 0;
         padding-top: 5px;
-    }
-
-    #info-table h5{
-        font-size: 13px;
-        margin-bottom: 0;
-        padding-top: 0;
     }
 /*--Adjusting review 1 to the Iphone5 screen in text size, height, line-height and position --*/
     .quote1, .review1{
@@ -690,12 +662,6 @@ button[type="submit"] {
         margin-bottom: 0;
     }
 
-    #form{
-        height: 274px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .form-heading{
         padding-top: 0;
     }
@@ -730,11 +696,6 @@ button[type="submit"] {
     .form-control{
         font-size: 11px;
         height: 75%;
-    }
-
-    #locations{
-        visibility: hidden;
-        display: none;
     }
 
     .footer .block-inline{
