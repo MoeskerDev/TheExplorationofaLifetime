@@ -29,7 +29,7 @@ span {
 #quotes, #reviews {
     background-color: #021f4b;
     color: #fafafa;
-    height: 250px;
+    height: 300px;
 }
 
 .card.locations {
@@ -42,6 +42,7 @@ span {
 span a.btn {
     background-color:#115268;
     padding-top: 6px;
+    vertical-align: middle;
 }
 
 
@@ -123,20 +124,18 @@ body {
     line-height: 30px;
 }
 
-.moon, .mars {
+/*.moon, .mars {
     display: inline-block;
-}
+}*/
 
 .moon {
     text-align: center;
     vertical-align: middle;
-    margin-left: 20px;
 }
 
 .mars {
     text-align: center;
     vertical-align: middle;
-    margin-left: -50px;
 }
 
 .uppercase {
@@ -182,19 +181,15 @@ body {
 }
 
 .table-responsive{
-    padding-right: 0;
     color: #fafafa;
-    margin: 0 auto;
-    padding-left: 100px;
 }
 
-.table .moon, .table .mars {
+.table.moon, .table.mars {
     color: #fafafa;
     text-align: center;
-    width: 100%;
 }
 
-#quotes, #reviews, #videos, #info-table, #images, #company {
+#quotes, #reviews, #videos, #info-table, #images, #company, #more-info, #faq {
     padding-top: 20px;
 }
 
@@ -224,10 +219,10 @@ body {
     height: 375px;
 }
 
-#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5, #faq h5{
-    text-align: center;
+#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5, #more-info h5, #faq h5 {
     color: #fafafa;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /*--Quote 1 is positioned in the center with full width--*/
@@ -366,9 +361,6 @@ button[type="submit"] {
 
     .table{
         max-width: 40%;
-        color: #fafafa;
-        height: 240px;
-        margin-left: 50px;
     }
 }
 /*-----
@@ -491,226 +483,7 @@ button[type="submit"] {
 /*-----
 // Small devices, (Iphone5, 320px)
 ---------*/
-@media screen and (width: 320px) {
-    header{
-        height: 74px;
-        width: 320px;
-        text-size-adjust: 25%;
-    }
+@media screen and (width: 320px) {    
 
-    .header-wrapper, .row, .head-logo, #logo{
-        height: 74px;
     }
-
-    #logo h1{
-        font-size: 15px;
-    }
-
-    .head-logo{
-        padding-left: 0;
-        width: 100%; 
-        padding-right: 0;
-    }
-
-    .head-logo a{
-        width: 100%;
-    }
-
-    .navbar{
-        padding-top: 10px;
-        font-size: 12px;
-        padding-left: 50px;
-    }
-
-    #menu {
-        display: inline-block;
-        padding-top: 0;
-        margin-top: 0;
-        margin-left: 40px;
-    }
-
-    .quotes, .reviews{
-        padding-top: 5px;
-    }
-
-    .row.quotes{
-        height: 202px;
-    }
-
-    #quotes, #reviews, #videos{
-        padding-top: 0;
-    }
-
-    #quotes h5, #reviews h5, #videos h5, #images h5{
-        font-size: 13px;
-        margin-bottom: 0;
-        padding-top: 5px;
-    }
-/*--Adjusting review 1 to the Iphone5 screen in text size, height, line-height and position --*/
-    .quote1, .review1{
-        height: 74px;
-        padding-top: 10.5px;
-        text-size-adjust: 50%;
-        line-height: 15px;  
-        padding-left: 25px;
-        padding-right: 0;
-    }
-
-    .quote2{
-        padding-top: 14px;;
-        padding-right: 25px;
-        padding-left: 0;
-    }
-
-    .homevideo, .moon, .mars{
-        height: 125px;
-        margin-top: 10px;
-    }
-
-    .homevideo iframe, .moon iframe, .mars iframe{
-        height: 75%;
-        width: 75%;
-        padding-top: 15px;
-    }
-
-    #home-button .round-button{
-        margin-top: 30px;
-        margin-left: 10px;
-    }
-
-    #home-button .round-button, #book-button .round-button{
-        border-radius: 30px;
-        height: 60px;
-        width: 60px;
-    }
-
-    .moon, .mars{
-        margin-left: 0;
-    }
-
-    #book-button{
-        padding-left: 0;
-    }
-
-    .table-responsive{
-        font-size: 9px;
-        height: 254px;
-    }
-/*--Adjusting the Mars table to the Iphone5 screen in width, height and position--*/
-    .table.mars{
-        width: 280px;
-        height: 120px;
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0px 10px 0px 10px;
-    }
-
-    .table.moon{
-        width: 280px;
-        height: 120px;
-        margin-left: 0px;
-        margin-right: 40px;
-    }
-
-    thead, tbody, .d-flex{
-        width: 280px;
-        height: 30px;
-    }
-
-     th, td{
-        padding-top: 6px;
-    }
-
-    #images{
-        height: 130px;
-        padding-top: 0;
-    }
-
-    .images{
-        padding-top: 15px;
-    }
-
-/*--Adjusting the Mars image to the Iphone5 screen by downsizing height and repositioning the image so that it stays visually in the center--*/
-    .moon-image, .mars-image{
-        height: 75%;
-        padding-top: 5px;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 10px;
-    }
-
-    .prices{
-        line-height: 10px;
-    }
-
-    .prices h4{
-        font-size: 11px;
-        margin-bottom: 0;
-    }
-
-    .prices hr{
-        margin: 0 auto;
-    }
-
-    .prices p{
-        font-size: 9px;
-        margin-bottom: 0;
-    }
-
-    .prices h6{
-        font-size: 8px;
-        margin-bottom: 0;
-    }
-
-    .form-heading{
-        padding-top: 0;
-    }
-
-    /*--to create the right size and positioning of the heading on mobile I adapted the font-size as well as the margins---- */
-    .form-heading h3{
-        font-size: 13px;
-        font-weight: 700;
-        margin-bottom: 4px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    #form h5{
-        font-size: 11px;
-    }
-
-    .uppercase.text-center{
-        padding-top: 0;
-    }
-
-    .center-form{
-        margin-left: 80px;
-        padding-top: 0;
-    }
-
-    .center-form form{
-        width: 100%;
-        height: 75%;
-    }
-
-    .form-control{
-        font-size: 11px;
-        height: 75%;
-    }
-
-    .footer .block-inline{
-        padding-top: 10px;
-        font-size: 10px;
-        margin-left: 15px;
-    }
-
-    .social-links i{
-        font-size: 100%;
-        margin-right: 5px;
-    }
-
-    .social-links {
-        margin-top:-50px;
-        margin-right: 15px;
-    }
-}}
+}
