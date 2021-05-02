@@ -288,9 +288,11 @@ body {
 }
 
 /*---------------------------------------Footer */
+footer {
+    height: 100px;
+}
 
 .footer{ 
-    height: 125px;
     background-color: #fafafa;
 }
 
