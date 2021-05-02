@@ -9,6 +9,13 @@
         type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>The exploration of a lifetime</title>
@@ -17,30 +24,33 @@
 <body>
     <!--Inside the header I place a clickable logo (to homepage) and a navbar with 3 clickable links to each page, both with icons-->
     <header>
-        <div class="header-wrapper">
-            <div class="row">
-                <div class="col-3 head-logo">
-                    <a href="index.html">
-                        <div id="logo"><h1>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1></div>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <div id="logo">
+                    <h2>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h2>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-home" aria-hidden="true"></i><span>Home</span>
                     </a>
-                </div>
-                <div class="col-9 navbar pull-right">
-                    <ul id="menu">
-                        <li class="list-inline-item">
-                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Background
-                                    info</span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="book.html"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><span>Book a
-                                    flight</span></a>
-                        </li>
-                    </ul>
-                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Background
+                        info</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book.html"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><span>Book a
+                        flight</span></a>
+                </li>
+               </ul>
             </div>
-        </div>
+        </nav>
     </header>
     <!--Inside the first section I placed 2 images from pixabay.com with prices of the flights in the middle. Unlike wireframe I liked the shown effect of the images-->
     <section id="images">

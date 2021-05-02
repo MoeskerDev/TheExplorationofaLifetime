@@ -10,6 +10,13 @@
         type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>The exploration of a lifetime</title>
@@ -18,32 +25,33 @@
 <body>
     <!--Inside the header I placed the clickable logo and the navbar with 3 clickable links to each page, including icons-->
     <header>
-        <div class="header-wrapper">
-            <div class="row">
-                <div class="col-3 head-logo">
-                    <a href="index.html">
-                        <div id="logo">
-                            <h1>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h1>
-                        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <div id="logo">
+                    <h2>Space<i class="fa fa-plane" aria-hidden="true"></i>M</h2>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-home" aria-hidden="true"></i><span>Home</span>
                     </a>
-                </div>
-                <div class="col-9 navbar pull-right">
-                    <ul id="menu">
-                        <li class="list-inline-item">
-                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Background
-                                    info</span></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="book.html"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><span>Book a
-                                    flight</span></a>
-                        </li>
-                    </ul>
-                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Background
+                        info</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book.html"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><span>Book a
+                        flight</span></a>
+                </li>
+               </ul>
             </div>
-        </div>
+        </nav>
     </header>
     <!--In the second section I placed a table with further info (dates, duration, departure locations) regarding the flights to the moon and mars-->
     <!--copied the table from bootstrap-->
@@ -164,7 +172,7 @@
     <!--New section to add more informative information-->
     <section id="moon">
         <h5>the moon</h5>
-        <div class="row moon float-left">
+        <div class="row moon">
             <div class="col-md-3 col-sm-2 col-xs-1 moon">
                 <iframe width="300" height="180" src="https://www.youtube.com/embed/6AviDjR9mmo"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -177,8 +185,14 @@
                     into another early planet. Debris from this collision began to orbit Earth, and accumulated, forming today's moon.
                     The moon is the fifth largest natural satellite in the solar system, with a diameter just under the width of China.
                     It's composed of an iron rich core, plus a mantle and crust containing minerals made of magnesium, oxygen and silicon.
-                    The moon's surface was once geologically active and covered in an ocean of magma.
-                    But today, apart from traces of water ice, the surface is completely covered in dust and rocky debris.
+                    The moon's surface was once geologically active and covered in an ocean of magma.</p>
+            </div>
+        </div>
+        </div>
+        <div class="row2 moon">
+            <div class="card moon">
+                <div class="card-body">
+                    <p>Today, apart from traces of water ice, the surface is completely covered in dust and rocky debris.
                     Countless craters dot the moon's surface. Each formed by objects such as meteroids,
                     comets and asteroids crashing onto the moon. The largest crater, the South Pole Aitkin basin,
                     spans across a quarter of the moon's surface, and is nearly deep enough to fit Mount Everest inside.
@@ -189,7 +203,6 @@
                     For most of human history, the moon could only be studied from afar. But on July 20th, 1969, humans were able to close
                     that distance with the American spaceflight mission Apollo 11. It placed humans on the moon for the very first time.
                     Bringing our understanding of Earth's only natural satellite one step closer.</p>
-                <p></p>
             </div>
         </div>
         </div>

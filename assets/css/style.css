@@ -85,7 +85,6 @@ span a.btn {
 header {
     margin:0;
     background-color: #fafafa;
-    height: 75px;
 }
 
 /*--The logo is bigger than the navbar so a bigger font-size, same (heavier) font-weight, also grey and sans-serif when space mono is not available------*/
