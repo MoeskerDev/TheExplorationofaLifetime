@@ -15,7 +15,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>The exploration of a lifetime</title>
@@ -73,14 +72,14 @@
         <h5>FAQ</h5>
         <div class="card faq">
             <div class="body-card">
-                <ol>
-                    <li>What can I expect from a flight offer?
+                <ol class="list-group">
+                    <li class="list-group-item-primary">What can I expect when I want to book a flight?
                     </li>
-                    <p></p>
-                    <li>How long does it take to travel to the moon or mars?</li>
-                    <p>Considering a round trip, travel time to the moon is about 6 days while travelling to mars will take around 16 months</p>
-                    <li>When are the departures of the flights?</li>
-                    <p>For 2021 the dates are </p>
+                    <h6 small class="faq">First, we will have to do a medical check to see if it is safe. If possible, you will receive an information package with what to expect. Besides that you are always able to ask any questions you might have.</h6>
+                    <li class="list-group-item-primary">How long does it take to travel to the moon or mars?</li>
+                    <h6 small class="faq">Considering a round trip, travel time to the moon is about 6 days while travelling to mars will take around 16 months.</h6>
+                    <li class="list-group-item-primary">When are the departures of the flights?</li>
+                    <h6 small class="faq">For 2021 the dates to the moon are: July 2nd, September 14th and December 15th. For Mars, the date is: November 6th.</h6>
                 </ol>
             </div>
         </div>
@@ -100,22 +99,21 @@
                                 <div class="row">
                                   <div class="col-sm-10">
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                      <label class="form-check-label" for="gridRadios1">
-                                        The moon
+                                      <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                      <label for="gridRadios1">
+                                        Moon
                                       </label>
                                     </div>
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                      <label class="form-check-label" for="gridRadios2">
+                                      <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                      <label for="gridRadios2">
                                         Mars
                                       </label>
                                     </div>
                                 </div>
                                 </div>
                             </fieldset>
-
-                        <textarea rows="5" name="interest" id="interest" class="form-control"
+                        <textarea rows="4" name="interest" id="interest" class="form-control"
                             placeholder="Specify your interest" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
