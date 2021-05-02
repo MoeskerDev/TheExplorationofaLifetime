@@ -21,6 +21,10 @@ span {
     color: #fafafa;
 }
 
+.card.company {
+    width: 70%;
+}
+
 #company {
     height: 256px;
     background-color:#115268;
@@ -46,6 +50,14 @@ span {
     background-color: #021f4b;
 }
 
+.card faq{
+    color: white;
+}
+
+.card.mars, .card.moon {
+    width: 80%;
+}
+
 span a.btn {
     background-color:#115268;
     padding-top: 6px;
@@ -60,7 +72,7 @@ span a.btn {
     color:#fafafa;
 }
 
-#videos, #info-table {
+#mars, #moon {
     background-color: #4c3b71;
 }
 
@@ -119,6 +131,11 @@ body {
     line-height: 20px;
 }
 
+.blockquote {
+    line-height: normal;
+    font-size: 95%;
+}
+
 /* -----Creating a round button by using same height and width plus a border radius of 
 50% with text aligned in the middle--------*/
 /*.round-button {
@@ -130,18 +147,16 @@ body {
     line-height: 30px;
 }*/
 
-.moon, .mars {
-    display: inline-block;
-}
-
 .moon {
     text-align: center;
     vertical-align: middle;
+    color: white;
 }
 
 .mars {
     text-align: center;
     vertical-align: middle;
+    color: white;
 }
 
 .uppercase {
@@ -195,17 +210,16 @@ body {
     text-align: center;
 }
 
-#quotes, #reviews, #videos, #info-table, #images, #company, #more-info, #faq {
+#quotes, #reviews, #mars, #info-table, #images, #company, #moon, #faq {
     padding-top: 10px;
 }
 
-#videos {
-    height: 250px;
+#mars {
+    height: 500px;
 }
 
-#more-info {
-    height: 376px;
-    background-color:#115268;
+#moon {
+    height: 400px;
 }
 
 #info-table {
@@ -225,7 +239,7 @@ body {
     height: 400px;
 }
 
-#quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5, #more-info h5, #faq h5 {
+#quotes h5, #reviews h5, #mars h5, #info-table h5, #images h5, #company h5, #moon h5, #faq h5 {
     color: #fafafa;
     text-transform: uppercase;
     text-align: center;
