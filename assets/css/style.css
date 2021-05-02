@@ -115,7 +115,7 @@ body {
 
 /* -----Creating a round button by using same height and width plus a border radius of 
 50% with text aligned in the middle--------*/
-.round-button {
+/*.round-button {
     height: 100px;
     width: 100px;
     background-color: #115268;
@@ -190,7 +190,7 @@ body {
 }
 
 #quotes, #reviews, #videos, #info-table, #images, #company, #more-info, #faq {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #videos {
@@ -207,7 +207,7 @@ body {
 }
 
 #images {
-    height: 250px;
+    height: 225px;
 }
 
 #faq {
@@ -216,7 +216,7 @@ body {
 }
 
 #form {
-    height: 375px;
+    height: 400px;
 }
 
 #quotes h5, #reviews h5, #videos h5, #info-table h5, #images h5, #company h5, #more-info h5, #faq h5 {
@@ -287,6 +287,10 @@ body {
     margin-bottom: 20px;
 }
 
+.form-group {
+    margin-bottom: 0px;
+    background-color: white;
+}
 /*---------------------------------------Footer */
 footer {
     height: 100px;
@@ -353,133 +357,12 @@ button[type="submit"] {
 -------*/
 @media screen and (max-width: 992px) {
 
-    #home-button .round-button{
-        margin-left: -6%;
-    }
-
-    #book-button .round-button{
-        margin-left: -3%;
-    }
-
-    .table{
-        max-width: 40%;
-    }
 }
 /*-----
 // Medium devices (Ipad, 768px)
 -----*/
 @media screen and (width: 768px) {
 
-    #logo{
-        padding-top: 20px;
-    }
-
-    #menu{
-        width: 100%;
-        margin-right: 20px;
-        margin-left: 20px;
-    }    
-
-    .list-inline-item{
-        display: inline-block;
-    }
-
-    #quotes .quotes, #reviews .reviews{
-        padding-top: 40px;
-    }
-
-    .quotes .quote1, .quotes .homevideo, .quotes .quote2{
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .homevideo iframe{
-        width: 75%;
-        height: 75%;
-    }
-
-    .quote1 {
-        padding-left: 30px;
-    }
-
-    .quote2{
-        padding-left: 0;
-        padding-right: 30px;
-    }
-
-    .card.review1, .card.home-button, .card.review2 {
-        display: flex;
-    }
-
-    #videos .row{
-        padding-top: 60px;
-    }
-
-    .moon iframe, .mars iframe{
-        width: 75%;
-        height: 75%;
-    }
-
-    #book-button, #home-button{
-        padding-left: 0;
-    }
-
-    #book-button .round-button{
-        margin-left: 10px;
-        margin-top: 15px;
-    }
-
-    .table-responsive{
-        color: #fafafa;
-        padding-left: 0;
-    }
-
-    .table .mars{
-        margin-left: 30px;
-    }
-
-    .moon{
-        padding-left: 0;
-        margin-left: 0;
-        padding-right: 0;
-    }
-
-    .moon .wider{
-        height: 73px;
-    }
-
-    .mars{
-        padding-left: 40px;
-    }
-
-    #images .images{
-        padding-top: 40px;
-    }
-
-    .form-heading h3{
-        display: inline-block;
-        font-weight: 700;
-    }
-
-    #form .row{
-        padding-top: 20px;
-    }
-
-    .form-heading .uppercase .text-center{
-        padding-top: 30px;
-    }
-
-    .center-form {
-        padding-top: 20px;
-    }
-
-    button.btn.btn-secondary {
-        margin-top: 25px;
-    }
-
-    .one, .two, .three{
-        padding-top: 10px;
-    }
 
 }
 /*-----
