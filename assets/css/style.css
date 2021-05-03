@@ -31,20 +31,23 @@ span {
 }
 
 #company {
-    height: 256px;
+    min-height: 256px;
+    width: 100%;
     background-color:#115268;
 }
 
 #reviews {
     background-color: #021f4b;
     color: #fafafa;
-    height: 200px;
+    min-height: 200px;
+    width:100%;
 }
 
 #quotes {
     background-color: #021f4b;
     color: #fafafa;
-    height: 275px;
+    min-height: 275px;
+    width: 100%;
 }
 
 .card.locations {
@@ -79,6 +82,9 @@ span a.btn {
     padding-top: 6px;
 }
 
+#locations {
+    min-height: 125px;
+}
 
 #locations.card-body {
     padding: 0px;
@@ -230,11 +236,11 @@ body {
 }
 
 #mars {
-    height: 450px;
+    min-height: 450px;
 }
 
 #moon {
-    height: 450px;
+    min-height: 450px;
 }
 
 #info-table {
@@ -242,16 +248,16 @@ body {
 }
 
 #images {
-    height: 225px;
+    min-height: 225px;
 }
 
 #faq {
-    height: 251px;
+    min-height: 251px;
     background-color:#021f4b;
 }
 
 #form {
-    height: 400px;
+    min-height: 400px;
 }
 
 #quotes h5, #reviews h5, #mars h5, #info-table h5, #images h5, #company h5, #moon h5, #faq h5 {
@@ -326,7 +332,7 @@ body {
 }
 /*---------------------------------------Footer */
 footer {
-    height: 75px;
+    min-height: 100px;
 }
 
 .footer{ 
@@ -423,6 +429,6 @@ button[type="submit"] {
 // Small devices, (Iphone5, 320px)
 ---------*/
 @media screen and (width: 320px) {    
-
-    }
+  
+}
 }
