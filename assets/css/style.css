@@ -30,6 +30,10 @@ span {
     line-height: normal;
 }
 
+.body-card.comp {
+    padding: 10px;
+}
+
 #company {
     min-height: 175px;
     width: 100%;
@@ -461,15 +465,22 @@ button[type="submit"] {
     p.loc {
         display: none;
     }
-    .row.locations {
+    /*.row.locations {
         display: inline-block;
+    }*/
+    .one, .two, .three {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
+    h4.depart {
+        font-size: 16px;
+    }
     p.rev1 {
         margin-bottom: 0px;
     }
     
-    .review2, .quote2, .homevideo {
+    .review2, .quote2, .homevideo, .solar, .moon-image, .mars-image {
         display: none;
     }
     
@@ -494,7 +505,7 @@ button[type="submit"] {
         padding-right: 75px;
     }
 
-    .mars, .solar, .moon {
+    .mars, .moon {
         padding: 10px 5px;
     }
 
@@ -533,6 +544,14 @@ button[type="submit"] {
     #faq {
         padding-bottom: 20px;
         padding-left: 20px;
+    }
+
+    h3.form {
+        font-size: 24px;
+    }
+
+    h5.form {
+        font-size: 16px;
     }
     
     .center-form {
