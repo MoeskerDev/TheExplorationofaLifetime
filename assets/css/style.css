@@ -28,7 +28,6 @@ span {
 .card.company {
     width: 80%;
     line-height: normal;
-    margin-bottom: 20px;
 }
 
 #company {
@@ -401,23 +400,35 @@ button[type="submit"] {
 // Medium devices (Ipad, 768px)
 -----*/
 @media screen and (width: 768px) {
-        .card.company {
+    #company {
+        padding-bottom: 20px;
+    }    
+    
+    .card.company {
             width: 95%;
             text-size-adjust: 80%;
-        }
+    }
 
-        .card.quotes {
+    .card.quotes {
             padding: 0px;
-        }
+    }
 
-        .form {
-            width: 80%;
-        }
+    .solar {
+        display: none;
+    }
 
-        h3 {
+    #images, #faq {
+        padding-bottom: 20px;
+    }
+
+    .center-form {
+            max-width: 70%;
+    }
+
+    h3 {
             font-size: 20px;
             margin-top: 10px;
-        }
+    }
 
 }
 /*-----
