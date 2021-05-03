@@ -26,8 +26,9 @@ span {
 }
 
 .card.company {
-    width: 70%;
+    width: 80%;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 #company {
@@ -76,6 +77,7 @@ li.list-group-item-primary::marker {
 
 .card.mars, .card.moon {
     width: 80%;
+    margin-bottom: 20px;
 }
 
 span a.btn {
@@ -96,7 +98,8 @@ span a.btn {
 }
 
 .row.locations {
-    margin: 0 auto;
+    
+    vertical-align: middle;
 }
 
 #mars, #moon {
@@ -174,13 +177,11 @@ body {
     line-height: 30px;
 }*/
 
-.moon {
-    text-align: center;
-    vertical-align: middle;
-    color: white;
+.row.videos {
+    padding: 20px;
 }
 
-.mars {
+.moon, .solar, .mars {
     text-align: center;
     vertical-align: middle;
     color: white;
@@ -461,7 +462,7 @@ button[type="submit"] {
     }
 
     i.fa-fa-facebook, i.fa-fa-twitter, i.fa-fa-youtube, i.fa-fa-instagram {
-        margin-right: 20px;
+        padding: 20px;
     }
 
     #faq {
