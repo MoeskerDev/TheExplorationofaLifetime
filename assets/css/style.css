@@ -34,6 +34,7 @@ span {
     min-height: 175px;
     width: 100%;
     background-color:#115268;
+    padding-bottom: 20px;
 }
 
 #reviews {
@@ -77,6 +78,7 @@ li.list-group-item-primary::marker {
 .card.mars, .card.moon {
     width: 80%;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 span a.btn {
@@ -238,7 +240,7 @@ body {
 }
 
 #quotes, #reviews, #mars, #info-table, #images, #company, #moon, #faq {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 #mars {
@@ -260,6 +262,7 @@ body {
 #faq {
     min-height: 251px;
     background-color:#021f4b;
+    padding-bottom: 20px;
 }
 
 #form {
@@ -276,6 +279,9 @@ body {
     text-align: center;
 }
 
+hr {
+    border: 1px solid #021f4b;
+}
 /*--Quote 1 is positioned in the center with full width--*/
 
 
@@ -317,7 +323,7 @@ body {
     text-align: center;
     color: #fafafa;
     text-transform: uppercase;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -413,6 +419,16 @@ button[type="submit"] {
             padding: 0px;
     }
 
+    .card-body.quote1 {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .card-body.quote2 {
+        padding-right: 40px;
+        padding-left: 0px;
+    }
+
     .solar {
         display: none;
     }
@@ -421,8 +437,16 @@ button[type="submit"] {
         padding-bottom: 20px;
     }
 
+    #form {
+        padding-bottom:20px;
+    }
+
     .center-form {
             max-width: 70%;
+    }
+
+    .col.form-button {
+        padding-top: 15px;
     }
 
     h3 {
