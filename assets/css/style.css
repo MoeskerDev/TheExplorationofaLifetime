@@ -144,10 +144,19 @@ h1 {
     padding-top: 10px;
 }
 
+.fixed-top {
+    background-color: white; 
+}
+
+
 /*------------------------------------------------------------------------------Body */
 
 body {
     font-family: "space mono", sans-serif;
+}
+
+body {
+    padding-top: 75px;
 }
 
 .round-button a {
@@ -457,7 +466,8 @@ button[type="submit"] {
 /*-----
 // Small devices, (Iphone5, 320px)
 ---------*/
-@media screen and (width: 320px) {    
+@media screen and (width: 320px) { 
+     
     .card-body.rev1, .card-body.quote1 {
         padding: 0px;
     }
@@ -465,9 +475,7 @@ button[type="submit"] {
     p.loc {
         display: none;
     }
-    /*.row.locations {
-        display: inline-block;
-    }*/
+ 
     .one, .two, .three {
         padding-left: 0px;
         padding-right: 0px;
