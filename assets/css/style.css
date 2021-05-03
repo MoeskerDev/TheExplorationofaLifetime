@@ -414,18 +414,6 @@ button[type="submit"] {
     background-color: #021f4b;
 }
 /*------------------------------------------------Media Queries----*/
-/*----
-// Large devices (desktops, 1200px and down)
-------------*/
-@media screen and (max-width: 1200px) {
-
-    
-/*----
-// Medium devices (992px and down)
--------*/
-@media screen and (max-width: 992px) {
-
-}
 /*-----
 // Medium devices (Ipad, 768px)
 -----*/
@@ -594,4 +582,4 @@ button[type="submit"] {
         margin-bottom: 20px;
     }
 }
-}
+
