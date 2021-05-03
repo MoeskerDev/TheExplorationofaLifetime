@@ -423,11 +423,51 @@ button[type="submit"] {
 // Small devices, (Iphone5, 320px)
 ---------*/
 @media screen and (width: 320px) {    
+    .card-body.rev1, .card-body.quote1 {
+        padding: 0px;
+    }
+
+    p.rev1 {
+        margin-bottom: 0px;
+    }
+    
+    .review2, .quote2, .homevideo {
+        display: none;
+    }
+    
+    #company {
+        padding-bottom: 20px;
+    }
+    .card.company {
+        width: 90%;
+    }
+
+    .card.homevideo{
+        padding: 0px;
+    }
+
+    .card-body.video {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .block-inline {
+        padding-top: 0px;
+    }
+
+    .social-links {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    i.fa-fa-facebook, i.fa-fa-twitter, i.fa-fa-youtube, i.fa-fa-instagram {
+        margin-right: 20px;
+    }
+
     #faq {
         padding-bottom: 20px;
         padding-left: 20px;
     }
-    
     
     .center-form {
         max-width: 95%;
