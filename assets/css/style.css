@@ -23,6 +23,9 @@ span {
 
 .jumbotron {
     margin-bottom: 0px;
+    background-image: url(../images/jumbotron_image.jpg);
+    background-size: cover;
+    height: 100%;
 }
 
 .card-body.locations {
