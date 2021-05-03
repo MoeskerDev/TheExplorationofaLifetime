@@ -200,6 +200,7 @@ If you want to work on the project code within a local IDE:
 *   In the end, most of the basic structures came from CI tutorials. I especially looked again at the miniprojects.
 
 ### Acknowledgements
+*   Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 *   I would like to thank my mentor for guiding me through the steps and staying optimistic about being able to finish before the deadline even though I am a complete beginner who was stressed with time.
 *   Thanks to tutor support I was was able to view my project in my own browser at the end by fixing my open ports issue. This helped me to work a lot easier and gave me a much better overview.
 *   Thanks to student support for having a look at my surgery at the end of last year and the possibility regarding an extra time request.

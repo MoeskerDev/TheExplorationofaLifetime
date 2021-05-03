@@ -21,6 +21,10 @@ span {
     color: #fafafa;
 }
 
+.jumbotron {
+    margin-bottom: 0px;
+}
+
 .card-body.locations {
     padding: 10px;
 }
@@ -62,6 +66,7 @@ span {
 
 .card{
     background-color: #021f4b;
+    border: none;
 }
 
 .card.faq{
@@ -190,6 +195,10 @@ body {
     padding: 20px;
 }
 
+.row.images {
+    padding-bottom: 20px;
+}
+
 .moon, .solar, .mars {
     text-align: center;
     vertical-align: middle;
@@ -279,6 +288,10 @@ body {
 
 #form.container-fluid {
     padding-top: 10px;
+}
+.form-row.text-center {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #quotes h5, #reviews h5, #mars h5, #info-table h5, #images h5, #company h5, #moon h5, #faq h5 {
@@ -467,7 +480,10 @@ button[type="submit"] {
 // Small devices, (Iphone5, 320px)
 ---------*/
 @media screen and (width: 320px) { 
-     
+    .card.locations.jumbotron {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .card-body.rev1, .card-body.quote1 {
         padding: 0px;
     }
@@ -552,6 +568,10 @@ button[type="submit"] {
     #faq {
         padding-bottom: 20px;
         padding-left: 20px;
+    }
+
+    .form-heading {
+        padding-bottom: 10px;
     }
 
     h3.form {
