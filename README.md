@@ -173,8 +173,9 @@ If you want to work on the project code within a local IDE:
 *   The quotes came from the following [site](https://www.keepinspiring.me/inspiring-space-quotes/).
 *	The departure locations used in my website came from this [site](http://www.braeunig.us/space/center.htm).
 *   In order to get the Youtube Video Thumbnail Image I used the following [site](http://www.get-youtube-thumbnail.com/).
+* The text about the Moon and Mars were taken from the transcript of the videos.
 *   The Moon and Mars images had to be converted from webp to jpg so I used this [site](https://ezgif.com/webp-to-jpg).
-*   The reviews, address and pricing were written by me.
+*   The reviews, company info, address, pricing and FAQ were written by me.
 
 ### Media
 *	The images used in this site came from this [source](https://pixabay.com/).
@@ -196,12 +197,15 @@ If you want to work on the project code within a local IDE:
     [![Mars video](http://i3.ytimg.com/vi/D8pnmwOXhoY/hqdefault.jpg)](https://youtu.be/D8pnmwOXhoY)
 
 ### Code
-*   The pull-right that I used on the navbar came from this [site](https://stackoverflow.com/questions/28052869/bootstrap-navbar-and-position-logo-on-right-side-of-menu).
-*   The code for the [table](getbootstrap.com/docs/4.0/content/tables/) was taken from Bootstrap.
+* The jumbotron came from the CI tutorial, but I used [online](https://stackoverflow.com/questions/55038449/adding-background-image-to-jumbotron/55039070) code to add an image to it.
+*   The mx-auto that I used came from this [site](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4).
+*   The code for the [cards](https://getbootstrap.com/docs/4.0/components/card/) was taken from Bootstrap.
 *   The [resizing](https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css) of the images so that they are equal. 
-*   The basic code for the form was taken from a CI tutorial. 
+*   The basic code for the form was taken from a CI tutorial, but the code for the radio buttons was taken from [here](https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp).
+* The styling of the [hr](https://www.w3schools.com/howto/howto_css_style_hr.asp) element to make it more visible.
 *   The (submit) [button](https://stackoverflow.com/questions/2238239/tooltips-for-button) code came from a CI tutorial and was adjusted. 
-*   Regarding media queries, I have looked at CI tutorials and online as mentioned in the bug fixing section.
+*   Regarding [responsiveness](https://www.w3schools.com/cssref/pr_dim_min-height.asp) and showing my menu options in mobile, the min-height helped me out a lot.
+* For the grid system, I have looked at CI tutorials and [online](https://getbootstrap.com/docs/4.0/layout/grid/).
 *   In the end, most of the basic structures came from CI tutorials. I especially looked again at the miniprojects.
 
 ### Acknowledgements
