@@ -90,7 +90,7 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   Desktop: my own screen with size 1366x768.
 *   Ipad: Ipad screen size, 768x1024.
 *   Mobile: the mobile Iphone5 screen size, 320x568.
-    * Screenshots are added in the project in a pdf file and can be found at the [docs]() folder.
+    * Screenshots are added in the project in a pdf file and can be found at the [docs](https://github.com/MoeskerDev/TheExplorationofaLifetime/tree/master/assets/docs) folder.
 
 *   Chrome: this is the browser I normally use and have used during this project. For the most time I did not have access to the browser view, but via DevTools at the end I was able to see how to adjust for an Ipad screen and mobile (Iphone5) screen. All the links, buttons and videos work.
 *   Firefox: for now I only pasted the link in the browser and it showed that the links, videos as well as the buttons were working in the same way.
@@ -100,16 +100,16 @@ The company wants to create more bookings by sharing the experiences of other pe
 
 1.  As a visiting user I want to easily find and read the experiences of other people so that I get an idea of the quality of the service.
     *   Home: on this page we see a header with a logo that links to the homepage. Then a navbar that links to all three pages. The first section header with two quotes and a video. Then another section header with two reviews and a round button with a link to the booking page. Below that a section header with three departure locations. Finally, a footer with the address of the company and four social links. 
-    *   As a visiting user, when I visit the [homepage](https://github.com/MoeskerDev/TheExplorationofaLifetime/blob/master/assets/images/DesktopHomeImage.png), I can see the section header and read the reviews below from people who already experienced a flight in an instant on the homepage.
+    *   As a visiting user, when I visit the [homepage](https://moeskerdev.github.io/TheExplorationofaLifetime/index.html), I can see the section header and read the reviews below from people who already experienced a flight in an instant on the homepage.
 
 2.  As a visiting user to the website I want to quickly learn more about the Moon and Mars so that I can decide if and which one I want to visit.
     *   Background information: on this page we see the same header and footer. Besides that there is a section header with two informative videos and another round button with a link to the booking page. Below that section header with a table that contains more information regarding the dates, departures, travel time and destination. Below that a section header with three departure locations and at the bottom the footer again with the address of the company and four social links. 
-    *   As a visiting user you can learn more about the Moon and Mars by clicking on background information in the navbar which leads to the [background information](https://github.com/MoeskerDev/TheExplorationofaLifetime/blob/master/assets/images/DesktopInfoImage.png) page where you can watch both videos.
+    *   As a visiting user you can learn more about the Moon and Mars by clicking on background information in the navbar which leads to the [background information](https://moeskerdev.github.io/TheExplorationofaLifetime/info.html) page where you can watch both videos.
 
 3.  As a visiting user to the website I want to be able to navigate directly to the book a flight area so that I don't waste time searching for it.
     *   Book a flight: on this page we have the same header and footer. At the top there is a section header with images of the Moon and Mars including the prices per destination. Below that a header as a question with a form where you can either request more information or leave your info if you want to book a flight. Name, email and the specific request are required. There is a submit button as well. 
-    *   As a visiting user you are one click away from booking on each page via the green **_book now_** button or via the booking a flight link in the navbar, as you have seen on the [homepage](https://github.com/MoeskerDev/TheExplorationofaLifetime/blob/master/assets/images/DesktopHomeImage.png) and [background information](https://github.com/MoeskerDev/TheExplorationofaLifetime/blob/master/assets/images/DesktopInfoImage.png) page. When you click on the green button you are directed to the final book a flight page. The same result when you click on the book a flight link in the navbar on any page.
-        Directed to the last page, [book a flight](https://github.com/MoeskerDev/TheExplorationofaLifetime/blob/master/assets/images/DesktopBookImage.png), you can fill out the form. 
+    *   As a visiting user you are one click away from booking on each page via the green **_book now_** button or via the booking a flight link in the navbar, as you have seen on the [homepage](https://moeskerdev.github.io/TheExplorationofaLifetime/index.html) and [background information](https://moeskerdev.github.io/TheExplorationofaLifetime/info.html) page. When you click on the green button you are directed to the final book a flight page. The same result when you click on the book a flight link in the navbar on any page.
+        Directed to the last page, [book a flight](https://moeskerdev.github.io/TheExplorationofaLifetime/book.html), you can fill out the form. 
 
 *   The logo link should direct to the homepage when being clicked on which it does.
 *   All the lines/boxes of the form should be filled out since they are required. If not a message should appear to fill out a certain line/box which it does. Once you fill out all the lines before you click on 'I want to fly into space' these warnings should not appear which indeed they do not, as expected.
@@ -120,7 +120,7 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   CSS: was checked and passed the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues.
     *   Please note that I removed my alt text at the images and videos since they came up as errors in the above validators.
 
-* An overview of the lighthouse results can be found in the project as a pdf file at the [docs]() folder. 
+* An overview of the lighthouse results can be found in the project as a pdf file at the [docs](https://github.com/MoeskerDev/TheExplorationofaLifetime/tree/master/assets/docs) folder. 
 
 ### Fixed Bugs
 *   The options of my burger menu did not show after clicking the button. It turned out that my fixed height for the header was in the way, which taught me another part of responsiveness design. This also helped me regarding the overlapping of the sections in different screen sizes.
