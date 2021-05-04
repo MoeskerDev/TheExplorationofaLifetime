@@ -83,7 +83,6 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   Fixed header that does not move for Ipad and mobile screen size.
 *   Drop-down menu
 *   Table
-*   
 ---
 ## Testing
 ---
@@ -139,7 +138,7 @@ The company wants to create more bookings by sharing the experiences of other pe
 
 *   Responsiveness; I am happy to say that I was able to fix my responsiveness issues for Ipad and mobile Iphone 5 size. I am happy with the way it looks now. I removed all previous code for media queries and started again. I learned from this what it is like to fix code, rather building it up from scratch. Although I did not have time to make it responsive to all screen sizes, I did use the grid system and with time and more creations I will learn more and more.
 
-* I had a favicon error in the console and this was fixed by creating and adding a [favicon](https://favicon.io/) to my website.
+* I had a favicon error in the console and this was fixed by creating and adding a [favicon](https://favicon.io/) to my website. It has been added to my project and can be found [here](https://github.com/MoeskerDev/TheExplorationofaLifetime/blob/master/favicon.ico).
 ---
 ## Deployment
 ---
