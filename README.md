@@ -80,7 +80,7 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   DevTools: was used for the positioning of features and content while also used during adaptations regarding responsiveness.
 
 ### Features for the future
-*   Fixed header, that does not move for Ipad and mobile screen size.
+*   Fixed header that does not move for Ipad and mobile screen size.
 *   Drop-down menu
 *   Table
 *   
@@ -94,27 +94,34 @@ The company wants to create more bookings by sharing the experiences of other pe
     * Screenshots are added in the project in a pdf file and can be found at the [docs](https://github.com/MoeskerDev/TheExplorationofaLifetime/tree/master/assets/docs) folder.
 
 *   Chrome: this is the browser I normally use and have used during this project. All the links, buttons and videos work.
-*   Firefox: for now I only pasted the link in the browser and it showed that the links, videos as well as the buttons were working in the same way.
+*   Firefox: I pasted the link in the browser and it showed that the links, videos as well as the buttons were working in the same way.
 *   Edge: I tested the links, videos and buttons and they were all working similarly when I pasted the url in this browser.
 
 ### Test cases
 
 1.  As a visiting user I want to easily find and read the experiences of other people so that I get an idea of the quality of the service.
-    *   Home: on this page we see a header with a logo that links to the homepage. Then a navbar that links to all three pages. The first section header with two quotes and a video. Then another section header with two reviews and a round button with a link to the booking page. Below that a section header with three departure locations. Finally, a footer with the address of the company and four social links. 
-    *   As a visiting user, when I visit the [homepage](https://moeskerdev.github.io/TheExplorationofaLifetime/index.html), I can see the section header and read the reviews below from people who already experienced a flight in an instant on the homepage.
+    *   Home: on this page we see a header with a logo that links to the homepage. Then a navbar that links to all three pages. 
+    A jumbotron, with background image, that displays the departure locations. The first section with header with two reviews and a button that links to the book a flight page. Second section with header shows company information. Below that a section with header that displays two quotes with a music video in the middle. Finally, a footer with the address of the company and four social links. 
+    *   As a visiting user, when I visit the [homepage](https://moeskerdev.github.io/TheExplorationofaLifetime/index.html), I can see the section header reviews and read the reviews displayed from people who already experienced a flight in an instant on the homepage.
 
 2.  As a visiting user to the website I want to quickly learn more about the Moon and Mars so that I can decide if and which one I want to visit.
-    *   Background information: on this page we see the same header and footer. Besides that there is a section header with two informative videos and another round button with a link to the booking page. Below that section header with a table that contains more information regarding the dates, departures, travel time and destination. Below that a section header with three departure locations and at the bottom the footer again with the address of the company and four social links. 
-    *   As a visiting user you can learn more about the Moon and Mars by clicking on background information in the navbar which leads to the [background information](https://moeskerdev.github.io/TheExplorationofaLifetime/info.html) page where you can watch both videos.
+    *   Background information: on this page we see the same header and footer. Besides that there is a section with header and informative text regarding mars. Below that 3 informative videos. Below that a section with header that contains informative text regarding the moon. At the bottom the footer again with the address of the company and four social links. 
+    *   As a visiting user you can learn more about the Moon and Mars by clicking on background information in the navbar which leads to the [background information](https://moeskerdev.github.io/TheExplorationofaLifetime/info.html) page where you can either read information and/or watch videos.
 
 3.  As a visiting user to the website I want to be able to navigate directly to the book a flight area so that I don't waste time searching for it.
-    *   Book a flight: on this page we have the same header and footer. At the top there is a section header with images of the Moon and Mars including the prices per destination. Below that a header as a question with a form where you can either request more information or leave your info if you want to book a flight. Name, email and the specific request are required. There is a submit button as well. 
-    *   As a visiting user you are one click away from booking on each page via the green **_book now_** button or via the booking a flight link in the navbar, as you have seen on the [homepage](https://moeskerdev.github.io/TheExplorationofaLifetime/index.html) and [background information](https://moeskerdev.github.io/TheExplorationofaLifetime/info.html) page. When you click on the green button you are directed to the final book a flight page. The same result when you click on the book a flight link in the navbar on any page.
+    *   Book a flight: on this page we have the same header and footer. At the top there is a section header with images of the Moon and Mars including the prices per destination. Below that a header which introduces the section with frequently asked questions displayed as a list.
+    The last section with a question as header, shows a form where you can either request more information or leave your info if you want to book a flight. Name, email and the specific request are required. A choice should be made between the radio buttons moon or mars. There is a submit button with tooltip as well. 
+    At the end, the footer again with the company address and the four social links. 
+    *   As a visiting user you are one click away from booking on the homepage via the green **_book now_** button or via the booking a flight link in the navbar, as you have seen on the [homepage](https://moeskerdev.github.io/TheExplorationofaLifetime/index.html) and [background information](https://moeskerdev.github.io/TheExplorationofaLifetime/info.html) page. When you click on the green button you are directed to the final book a flight page. The same result when you click on the book a flight link in the navbar on the homepage.
         Directed to the last page, [book a flight](https://moeskerdev.github.io/TheExplorationofaLifetime/book.html), you can fill out the form. 
 
 *   The logo link should direct to the homepage when being clicked on which it does.
-*   All the lines/boxes of the form should be filled out since they are required. If not a message should appear to fill out a certain line/box which it does. Once you fill out all the lines before you click on 'I want to fly into space' these warnings should not appear which indeed they do not, as expected.
-*   The social links should open in another browser tab once you click on any of the four. All four social links open, as expected, in another browser tab.
+* The links in the navbar should direct you to the page linked, whicht they do.
+* The book now button should direct you to the last book a flight page, which it does.
+* When clicking on the videos, they should start playing on the website itself and not in a different tab, which they do. You should also be able to watch it full screen and when returning to a smaller screen by pressing ESC, still be on the website, which works for all videos.  
+* The social links should open in another browser tab once you click on any of the four. All four social links from all pages open, as expected, in another browser tab.
+*   All the input fields of the form should be filled out since they are required. When clicking the button, while not all fields are filled out, a message should appear to fill out a certain input field, which it does. Once you fill out all the lines before you click on 'I want to fly into space' these warnings should not appear which indeed they do not, as expected. After clicking on the submit button the page should refresh and all filled out information should be gone, which happens. When your cursor enters the submit button it should show a tooltip, which it does. 
+
 
 ### Code validation
 *   HTML: was checked and passed the [W3C validator](https://validator.w3.org/) with no issues.
