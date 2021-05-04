@@ -82,6 +82,7 @@ span {
 p.faq {
     margin-bottom: 0px;
 }
+
  ol li {
      list-style-type: none;
 }
@@ -117,8 +118,7 @@ span a.btn {
     background-color: #115268;
 }
 
-/*--------------------------------------------------------------------------------Heading */
-
+/*------------------------------------------------------------Heading---------------------------------- */
 header {
     margin:0;
     background-color: #fafafa;
@@ -155,9 +155,7 @@ h1 {
     background-color: white; 
 }
 
-
-/*------------------------------------------------------------------------------Body */
-
+/*---------------------------------------------Body---------------------------------------- */
 body {
     font-family: "space mono", sans-serif;
 }
@@ -182,17 +180,6 @@ body {
     font-size: 95%;
 }
 
-/* -----Creating a round button by using same height and width plus a border radius of 
-50% with text aligned in the middle--------*/
-/*.round-button {
-    height: 100px;
-    width: 100px;
-    background-color: #115268;
-    text-align: center;
-    font-size: 30px;
-    line-height: 30px;
-}*/
-
 .row.videos {
     padding: 20px;
 }
@@ -216,6 +203,7 @@ body {
 .uppercase.text-center{
     padding-top: 0;
 }
+
 /*--The image css is from a CI tutorial and it is positioned at the center and contained within the background area with no repeating of the same image--*/
 .moon-image {
     background: url(../images/The_Moon.jpg);
@@ -291,6 +279,7 @@ body {
 #form.container-fluid {
     padding-top: 10px;
 }
+
 .form-row.text-center {
     padding-top: 10px;
     padding-bottom: 20px;
@@ -305,33 +294,21 @@ body {
 hr {
     border: 1px solid #021f4b;
 }
-/*--Quote 1 is positioned in the center with full width--*/
-
-
-
-
-/*--Quote 2 is positioned in the center with full width and a bit higher than quote 1 for visual effect since it is smaller--*/
-
 
 #home-button {
     background-color: #021f4b;
     display: inline-block;
 }
 
-#book-button .round-button {
-    margin-top: 35px;
-    margin-left: 20px;
-}
-
 #images .images {
     margin: 0 auto;
 }
 
-#book-button .round-button a, #home-button .round-button a {
+#home-button .round-button a {
     text-transform: uppercase;
 }
 
-/*---------------------------------Departures/locations */
+/*---------------------------------Departures/locations---------------- */
 .one, .two, .three {
     text-align: center;
     display: inline-block;
@@ -354,7 +331,8 @@ hr {
     margin-bottom: 0px;
     background-color: white;
 }
-/*---------------------------------------Footer */
+
+/*---------------------------------------Footer---------------------- */
 footer {
     min-height: 100px;
 }
@@ -394,8 +372,7 @@ footer {
     margin-right: 70px;
 }
 
-/*---------------------------------------Form */
-
+/*---------------------------------------Form----------------------- */
 .form-heading {
     font-family: "space mono", "sans-serif";
     font-weight: 700;
@@ -407,12 +384,14 @@ footer {
     margin: 0 auto;
     max-width: 50%;
 }
+
 /*-----copied the button from CI tutorial----*/
 button[type="submit"] {
     margin-top: 10px;
     background-color: #021f4b;
 }
-/*------------------------------------------------Media Queries----*/
+
+/*------------------------------------------------Media Queries-----------------*/
 /*-----
 // Medium devices (Ipad, 768px)
 -----*/
@@ -464,7 +443,6 @@ button[type="submit"] {
             font-size: 20px;
             margin-top: 10px;
     }
-
 }
 /*-----
 // Small devices, (Iphone5, 320px)
@@ -490,6 +468,7 @@ button[type="submit"] {
     h4.depart {
         font-size: 16px;
     }
+
     p.rev1 {
         margin-bottom: 0px;
     }
