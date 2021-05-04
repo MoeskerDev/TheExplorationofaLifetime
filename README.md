@@ -153,7 +153,7 @@ This website was deployed to GitHub pages from the [GitHub repository](https://g
 1.  Login into [GitHub](https://github.com/).
 2.  From all the repositories on the screen, select **TheExplorationofaLifetime**.
 3.  From the menu items click on **Settings**.
-4.  Scroll down to the **GitHub Pages** part.
+4.  Scroll down to the **GitHub Pages** part and click on the link **Check it out here!**.
 5.  Under **Source** click on the drop-down menu and select **Master Branch** instead of **None**.
 6.  While selecting Master Branch, the page is automatically refreshed and is now deployed.
 7.  Scroll back down to the **GitHub Pages** part and get the link to the deployed website.
