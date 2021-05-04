@@ -179,6 +179,9 @@ If you want to work on the project code within a local IDE:
 ### Media
 *	The images used in this site came from this [source](https://pixabay.com/).
 
+    Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
+
+    ![Jumbotron image](https://pixabay.com/get/ge28daf992e47d858224ecd5a03ecf6b2b62beb6020d45f71546cabd758e45507d82746fd5dcc62318990e768a06d9d27_1280.jpg "The universe")
     ![Moon image](https://cdn.pixabay.com/photo/2016/01/20/14/51/earth-1151659_960_720.jpg "The Moon")
     ![Mars image](https://cdn.pixabay.com/photo/2020/11/30/19/57/mars-5792147_960_720.jpg "Mars")	
 	
@@ -187,6 +190,8 @@ If you want to work on the project code within a local IDE:
     [![Universe song](http://i3.ytimg.com/vi/vIy76M-4txo/hqdefault.jpg)](https://youtu.be/vIy76M-4txo)
 
     [![Moon video](http://i3.ytimg.com/vi/6AviDjR9mmo/hqdefault.jpg)](https://youtu.be/6AviDjR9mmo)
+
+    [![Solar system video](http://i3.ytimg.com/vi/libKVRa01L8/hqdefault.jpg)](https://youtu.be/libKVRa01L8)
 
     [![Mars video](http://i3.ytimg.com/vi/D8pnmwOXhoY/hqdefault.jpg)](https://youtu.be/D8pnmwOXhoY)
 
@@ -200,7 +205,6 @@ If you want to work on the project code within a local IDE:
 *   In the end, most of the basic structures came from CI tutorials. I especially looked again at the miniprojects.
 
 ### Acknowledgements
-*   Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 *   I would like to thank my mentor for guiding me through the steps and staying optimistic about being able to finish before the deadline even though I am a complete beginner who was stressed with time.
 *   Thanks to tutor support I was was able to view my project in my own browser at the end by fixing my open ports issue. This helped me to work a lot easier and gave me a much better overview.
 *   Thanks to student support for having a look at my surgery at the end of last year and the possibility regarding an extra time request.
