@@ -67,8 +67,12 @@ The company wants to create more bookings by sharing the experiences of other pe
 ---
 ## Technologies Used
 ---
+### Languages
 *	HTML: was used to create the basic skeleton of the project
 *	CSS: was used for styling the pages to make it more attractive for users to visit.
+
+### Libraries
+*   jQuery and popper.js: needed for the interactive burger menu.
 
 ### Framework
 *	[Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/download/): the project uses Bootstrap 4.0 to be responsive to screen size and it provides a certain basic structure which saves time.
