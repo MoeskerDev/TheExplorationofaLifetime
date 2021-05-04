@@ -31,25 +31,26 @@ The company wants to create more bookings by sharing the experiences of other pe
 
 ### Home
 *	will have a header and footer.
-*	additionally a body with three sections, each will have their own header.
-*	in the first section there will be two quotes with a video link in the middle for users to think about space and earth in a funny and philosophical way.
-*	in the second section there will be two reviews with a green round button to redirect directly to the green book a flight page.
-*	in the third section we show the three departure locations on earth.
+*	additionally a body with four sections. A jumbotron, then three sections with each their own header.
+* the jumbotron displays the departure locations on earth with a background image.
+*	in the first section with header there will be two reviews with a square book button which when clicked directs you to the book a flight page. 
+*	in the second section with header there will be some information about the company. 
+*	in the third section with header two quotes with a video in the middle for users to think about space and earth in a funny and philosophical way.
 *   responsive to Ipad and Iphone5.
 
 ### Background information 
 *	will have a header and footer.
-*	the body has three sections with each their own header as well.
-*	the first section includes two video links, one about the Moon and one about Mars, to inform the users about the two possible destinations with again in the middle the green round button to link directly to the book a flight page.
-*	the second section is used to provide additional information about the flights in a structured way by using a table which shares dates, duration, departure location and destination. As well as a green round button to redirect directly to the green book a flight page.
-*   in the third section we show the three departure locations on earth.
+*	the body has two sections with a header.
+*	the first section includes informative text regarding mars and three videos. One about the Moon, one about the solar system and one about Mars. This is to inform the users about the universe and the two possible destinations.
+*	the second section with a header shows informative text regarding the moon. 
 *   responsive to Ipad and Iphone5.
 
 ### Book a flight
 *	will have a header and footer.
-*	the body will have two sections.
+*	the body will have three sections.
 *	the first section shows an image of the Moon and of Mars including the price for each flight. 
-*	the second section includes a form with required information and submit button to either request more information or to book a flight.
+* the second section displays some frequently asked questions as an ordered list without numbering.
+*	the third section includes a form with required information, radio buttons and submit button with tooltip to either request more information or to book a flight.
 *   responsive to Ipad and Iphone5.
 
 ### Screen readers
@@ -92,7 +93,7 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   Mobile: the mobile Iphone5 screen size, 320x568.
     * Screenshots are added in the project in a pdf file and can be found at the [docs](https://github.com/MoeskerDev/TheExplorationofaLifetime/tree/master/assets/docs) folder.
 
-*   Chrome: this is the browser I normally use and have used during this project. For the most time I did not have access to the browser view, but via DevTools at the end I was able to see how to adjust for an Ipad screen and mobile (Iphone5) screen. All the links, buttons and videos work.
+*   Chrome: this is the browser I normally use and have used during this project. All the links, buttons and videos work.
 *   Firefox: for now I only pasted the link in the browser and it showed that the links, videos as well as the buttons were working in the same way.
 *   Edge: I tested the links, videos and buttons and they were all working similarly when I pasted the url in this browser.
 
