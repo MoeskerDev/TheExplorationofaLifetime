@@ -78,10 +78,10 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   DevTools: was used for the positioning of features and content while also used during adaptations regarding responsiveness.
 
 ### Features for the future
-*   Fixed header
+*   Fixed header, that does not move for ipad and mobile screen size.
 *   Drop-down menu
-*   Visually improved buttons 
-*   Table adjustments
+*   Table
+*   
 ---
 ## Testing
 ---
@@ -119,11 +119,13 @@ The company wants to create more bookings by sharing the experiences of other pe
     *   Please note that I removed my alt text at the images and videos since they came up as errors in the above validators. 
 
 ### Fixed Bugs
-*   At the homepage for some time I could not get all three features of the first section aligned next to each other. Despite trying first by changing margins and/or padding without DevTools. I realized that the second section did place three similar features next to each other. I compared the code just to realize that the only thing that I needed to change were some end divs! They were not placed correctly around the code so I corrected that.
+*   The options of my burger menu did not show after clicking the button. It turned out that my fixed height for the header was in the way, which taught me another part of responsiveness design. This also helped me regarding the overlapping of the sections in different screen sizes.
+
+* My video was not displaying completely in Ipad size. I fixed that my looking at my grid system and changing my code from col-md-4 to col-lg-4 col-md-6.
 
 *   At some point I decided to check my social links and they did not work eventhough I followed a CI tutorial doing this. I did not understand why, looked online and then found a website where they mentioned that you should use the [absolute URL](https://pixelgrade.com/docs/lens/troubleshooting/arent-social-links-not-working/). I adapted the links and after that they worked!
 
-*   Responsiveness; here I still have so much to learn and I think this is what took a lot of time and I am still not satisfied with the results. At the same time I learned a lot playing with the box model. I believe I missed my deadline mainly due to this part (combined with the fact that I was stressed with time anyway). I was proud of creating this neat website (first ever!) with Bootstrap on my own desktop view. Then came responsiveness.. First I started to use both the grid system and the media queries which completely messed up my good looking website. I should have read 2.6 of LO2 more closely. I decided I should go for [media queries](https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile) this time and perhaps later the [grid system](https://stackoverflow.com/questions/49308468/setting-bootstrap-col-widths-with-media-queries). Since Bootstrap is mobile first design but my own design was desktop first, mainly made with looking at the preview in gitpod and later luckily looking at it via my own browser, I was confused. I started with min-width, but later realized that even though I used Bootstrap, which is mobile first, my design had been desktop first. So I changed it to max-width. Then to pick the [breakpoints](https://bootstrapcreative.com/bootstrap-4-media-queries/). The idea was to make it fit all the screen sizes on DevTools, but I could not make it due to time. I decided to focus on desktop, Ipad and Mobile (Iphone5) which already created many changes and sometimes challenges for each size. At the final moments there were still always little things to adjust that would not change due to? Although I have to say it always gives a great feeling when I resolve one of my issues and learn more about how it all works. 
+*   Responsiveness; I am happy to say that I was able to fix my responsiveness issues for Ipad and mobile Iphone 5 size. I am happy with the way it looks now. I removed all previous code for media queries and started again. I learned from this what it is like to fix code, rather building it up from scratch. Although I did not have time to make it responsive to all screen sizes, I did use the grid system and with time and more creations I will learn more and more.
 ---
 ## Deployment
 ---
@@ -199,12 +201,12 @@ If you want to work on the project code within a local IDE:
 ### Code
 * The jumbotron came from the CI tutorial, but I used [online](https://stackoverflow.com/questions/55038449/adding-background-image-to-jumbotron/55039070) code to add an image to it.
 *   The mx-auto that I used came from this [site](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4).
-*   The code for the [cards](https://getbootstrap.com/docs/4.0/components/card/) was taken from Bootstrap.
+*   The code for the [cards](https://getbootstrap.com/docs/4.0/components/card/) was taken from Bootstrap and the for the [borders](https://stackoverflow.com/questions/50743134/how-do-i-disable-the-border-on-bootstrap-4-cards/53397641) from stackoverflow.
 *   The [resizing](https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css) of the images so that they are equal. 
 *   The basic code for the form was taken from a CI tutorial, but the code for the radio buttons was taken from [here](https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp).
 * The styling of the [hr](https://www.w3schools.com/howto/howto_css_style_hr.asp) element to make it more visible.
 *   The (submit) [button](https://stackoverflow.com/questions/2238239/tooltips-for-button) code came from a CI tutorial and was adjusted. 
-*   Regarding [responsiveness](https://www.w3schools.com/cssref/pr_dim_min-height.asp) and showing my menu options in mobile, the min-height helped me out a lot.
+*   Regarding [responsiveness](https://www.w3schools.com/cssref/pr_dim_min-height.asp) and showing my menu options in mobile, the min-height helped me out a lot together with [media queries](https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile).
 * For the grid system, I have looked at CI tutorials and [online](https://getbootstrap.com/docs/4.0/layout/grid/).
 *   In the end, most of the basic structures came from CI tutorials. I especially looked again at the miniprojects.
 
