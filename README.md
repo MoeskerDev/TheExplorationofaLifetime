@@ -22,12 +22,12 @@ The company wants to create more bookings by sharing the experiences of other pe
 ---
 ### Header
 *	each page will include the Space✈M logo which always links back to the homepage when clicked on and it is a representation of the company. Also, the navbar with three links for users to change pages by clicking on each specific link: Home - Background information - Book a flight.
-*	both are responsive to the screensizes Ipad and Iphone5.
+*	both are responsive to the screensizes Ipad and Iphone5, the latter one will display a burger menu.
 
 ### Footer
 *   each page will show the footer with the company address so users know where the company resides.
 *	will include four social links which allows users to follow updates, come into contact with each other and share experiences.
-*   they are responsive to smaller screensizes like an Ipad and an Iphone5.
+*   they are responsive to smaller screensizes like Ipad and mobile Iphone5.
 
 ### Home
 *	will have a header and footer.
@@ -75,10 +75,11 @@ The company wants to create more bookings by sharing the experiences of other pe
 ### Tools
 *   [FontAwesome](https://fontawesome.com/icons?d=gallery): all the icons I used on my website are from here.
 *   [GoogleFonts](https://fonts.google.com/specimen/Space+Mono?query=space+mono&preview.text_type=custom#standard-styles): by browsing Google fonts I chose the space mono 400 regular for content and the 700 bold for headers and the menu in general.
+* [Favicon](https://favicon.io/) : I created a favicon to fix an error.
 *   DevTools: was used for the positioning of features and content while also used during adaptations regarding responsiveness.
 
 ### Features for the future
-*   Fixed header, that does not move for ipad and mobile screen size.
+*   Fixed header, that does not move for Ipad and mobile screen size.
 *   Drop-down menu
 *   Table
 *   
@@ -86,9 +87,10 @@ The company wants to create more bookings by sharing the experiences of other pe
 ## Testing
 ---
 ### Supported screens and browsers
-*   Desktop: my own screen turns out to be 1366x768 and I started with this screen once I was able to view it in a browser. All the links, buttons and videos worked the way they should.
-*   Ipad: I used DevTools to adjust it to the Ipad size. I tested all the links, buttons and videos. They worked.
-*   Mobile: the Iphone5 was the basis for adjusting the website to mobile size. At first I hid quote two and review two, but in the end the view allowed for all. Also here everything worked as expected.
+*   Desktop: my own screen with size 1366x768.
+*   Ipad: Ipad screen size, 768x1024.
+*   Mobile: the mobile Iphone5 screen size, 320x568.
+    * Screenshots are added in the project in a pdf file and can be found at the [docs]() folder.
 
 *   Chrome: this is the browser I normally use and have used during this project. For the most time I did not have access to the browser view, but via DevTools at the end I was able to see how to adjust for an Ipad screen and mobile (Iphone5) screen. All the links, buttons and videos work.
 *   Firefox: for now I only pasted the link in the browser and it showed that the links, videos as well as the buttons were working in the same way.
@@ -116,7 +118,9 @@ The company wants to create more bookings by sharing the experiences of other pe
 ### Code validation
 *   HTML: was checked and passed the [W3C validator](https://validator.w3.org/) with no issues.
 *   CSS: was checked and passed the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues.
-    *   Please note that I removed my alt text at the images and videos since they came up as errors in the above validators. 
+    *   Please note that I removed my alt text at the images and videos since they came up as errors in the above validators.
+
+* An overview of the lighthouse results can be found in the project as a pdf file at the [docs]() folder. 
 
 ### Fixed Bugs
 *   The options of my burger menu did not show after clicking the button. It turned out that my fixed height for the header was in the way, which taught me another part of responsiveness design. This also helped me regarding the overlapping of the sections in different screen sizes.
@@ -126,6 +130,8 @@ The company wants to create more bookings by sharing the experiences of other pe
 *   At some point I decided to check my social links and they did not work eventhough I followed a CI tutorial doing this. I did not understand why, looked online and then found a website where they mentioned that you should use the [absolute URL](https://pixelgrade.com/docs/lens/troubleshooting/arent-social-links-not-working/). I adapted the links and after that they worked!
 
 *   Responsiveness; I am happy to say that I was able to fix my responsiveness issues for Ipad and mobile Iphone 5 size. I am happy with the way it looks now. I removed all previous code for media queries and started again. I learned from this what it is like to fix code, rather building it up from scratch. Although I did not have time to make it responsive to all screen sizes, I did use the grid system and with time and more creations I will learn more and more.
+
+* I had a favicon error in the console and this was fixed by creating and adding a [favicon](https://favicon.io/) to my website.
 ---
 ## Deployment
 ---
