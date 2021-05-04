@@ -223,6 +223,7 @@ If you want to work on the project code within a local IDE:
 *   The basic code for the form was taken from a CI tutorial, but the code for the radio buttons was taken from [here](https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp).
 * The styling of the [hr](https://www.w3schools.com/howto/howto_css_style_hr.asp) element to make it more visible.
 *   The (submit) [button](https://stackoverflow.com/questions/2238239/tooltips-for-button) code came from a CI tutorial and was adjusted. 
+* The [tooltip](https://getbootstrap.com/docs/4.0/components/tooltips/) for the submit button.
 *   Regarding [responsiveness](https://www.w3schools.com/cssref/pr_dim_min-height.asp) and showing my menu options in mobile, the min-height helped me out a lot together with [media queries](https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile).
 * For the grid system, I have looked at CI tutorials and [online](https://getbootstrap.com/docs/4.0/layout/grid/).
 *   In the end, most of the basic structures came from CI tutorials. I especially looked again at the miniprojects.
