@@ -82,9 +82,8 @@ span {
 p.faq {
     margin-bottom: 0px;
 }
-
-li.list-group-item-primary::marker {
-    color: white;
+ ol li {
+     list-style-type: none;
 }
 
 .card.mars, .card.moon {
@@ -562,7 +561,7 @@ button[type="submit"] {
 
     #faq {
         padding-bottom: 20px;
-        padding-left: 20px;
+        padding-left: 5px;
     }
 
     .form-heading {
