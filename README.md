@@ -1,4 +1,5 @@
 # The exploration of a lifetime
+### View a [live version](https://8000-moeskerdev-theexplorati-14qlcfiky10.ws-eu43.gitpod.io/index.html) of the project
 ---
 ## Purpose of the project
 ---
